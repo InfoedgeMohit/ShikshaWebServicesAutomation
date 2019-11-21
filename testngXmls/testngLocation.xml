@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="locationApiSuite">
+	<test name="Test">
+		<classes>
+			<class name="location.info.GetMultipleStatesName" />
+			<class name="location.info.GetMultipleCitiesName" />
+			<class name="location.info.GetMultipleLocalitiesName" />
+			<class name="location.info.GetMultipleStates" />
+			<class name="location.info.GetMultipleCities" />
+			<class name="location.info.GetMultipleLocalities" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

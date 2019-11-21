@@ -1,0 +1,461 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">25</td><td class="numi">25</td><td class="numi">0</td><td class="numi">0</td><td class="numi">10.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="25">baseentities.info.GetMultipleStreams</td><td><a href="#m1"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m2"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m3"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m4"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m5"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m6"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m7"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m8"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m9"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m10"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m11"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m12"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m13"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m14"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m15"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m16"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m17"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m18"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m19"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m20"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m21"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m22"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m23"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m24"><b>verifyGetMultipleStreamsApi</b>  </a></td><td class="numi">24</td><td>1526971236621</td><td class="numi">9655</td></tr><tr class="passedodd"><td><a href="#m25"><b>respnseTimeStats_GetMultipleStreams</b>  </a></td><td class="numi">1</td><td>1526971246284</td><td class="numi">0</td></tr>
+</table>
+<h1>Default test</h1>
+<h2 id="m1">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>00000000036,-1,00000000037</td>
+<td>NA</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, No data returned for streamId : 36 [Correct]<br/>
+, No data returned for streamId : -1 [Correct]<br/>
+, No data returned for streamId : 37 [Correct]<br/>
+<br> API Response time : 71 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>ignoreHeader</td>
+<td>Required List parameter &apos;streamIds&apos; is not present</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Negative case<br/>
+, API Response is correct [message : Required List parameter 'streamIds' is not present]<br/>
+<br> API Response time : 32 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>1,2</td>
+<td>NA</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct value of streamId [1] for streamId : 1<br/>
+, Correct name [Business & Management Studies] of streamId : 1<br/>
+, Correct alias [null] of streamId : 1<br/>
+, Correct displayOrder [1] of streamId : 1<br/>
+, Correct synonyms [[Business Management, Business, Management, Business Studies, Management Studies]] of streamId : 1<br/>
+, Correct value of streamId [2] for streamId : 2<br/>
+, Correct name [Engineering] of streamId : 2<br/>
+, Correct alias [null] of streamId : 2<br/>
+, Correct displayOrder [2] of streamId : 2<br/>
+, Correct synonyms [[]] of streamId : 2<br/>
+<br> API Response time : 43 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>9999999999</td>
+<td>streamIds must have valid data in list</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Negative case<br/>
+, API Response is correct [message : streamIds must have valid data in list]<br/>
+<br> API Response time : 50 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>                      </td>
+<td>Integer list must not be empty or null values</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 44 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>1234567890123456789012345678901234567890</td>
+<td>streamIds must have valid data in list</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Negative case<br/>
+, API Response is correct [message : streamIds must have valid data in list]<br/>
+<br> API Response time : 36 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>67856483i5hgffdgo7fd89g7df89hbfjkghjkdfhgjkhdfjkghdfg9809g8fghfjkghjkdfhgjhdfjg</td>
+<td>streamIds must have valid data in list</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Negative case<br/>
+, API Response is correct [message : streamIds must have valid data in list]<br/>
+<br> API Response time : 40 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>19</td>
+<td>NA</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct value of streamId [19] for streamId : 19<br/>
+, Correct name [Beauty & Fitness] of streamId : 19<br/>
+, Correct alias [null] of streamId : 19<br/>
+, Correct displayOrder [19] of streamId : 19<br/>
+, Correct synonyms [[]] of streamId : 19<br/>
+<br> API Response time : 57 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>5</td>
+<td>NA</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct value of streamId [5] for streamId : 5<br/>
+, Correct name [Law] of streamId : 5<br/>
+, Correct alias [null] of streamId : 5<br/>
+, Correct displayOrder [5] of streamId : 5<br/>
+, Correct synonyms [[]] of streamId : 5<br/>
+<br> API Response time : 27 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>999999999,8,-1</td>
+<td>NA</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, No data returned for streamId : 999999999 [Correct]<br/>
+, Correct value of streamId [8] for streamId : 8<br/>
+, Correct name [IT & Software] of streamId : 8<br/>
+, Correct alias [null] of streamId : 8<br/>
+, Correct displayOrder [8] of streamId : 8<br/>
+, Correct synonyms [[]] of streamId : 8<br/>
+, No data returned for streamId : -1 [Correct]<br/>
+<br> API Response time : 40 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>4,8,9,10,14</td>
+<td>NA</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct value of streamId [4] for streamId : 4<br/>
+, Correct name [Hospitality & Travel] of streamId : 4<br/>
+, Correct alias [null] of streamId : 4<br/>
+, Correct displayOrder [4] of streamId : 4<br/>
+, Correct synonyms [[]] of streamId : 4<br/>
+, Correct value of streamId [8] for streamId : 8<br/>
+, Correct name [IT & Software] of streamId : 8<br/>
+, Correct alias [null] of streamId : 8<br/>
+, Correct displayOrder [8] of streamId : 8<br/>
+, Correct synonyms [[]] of streamId : 8<br/>
+, Correct value of streamId [9] for streamId : 9<br/>
+, Correct name [Humanities & Social Sciences] of streamId : 9<br/>
+, Correct alias [null] of streamId : 9<br/>
+, Correct displayOrder [9] of streamId : 9<br/>
+, Correct synonyms [[]] of streamId : 9<br/>
+, Correct value of streamId [10] for streamId : 10<br/>
+, Correct name [Arts ( Fine / Visual / Performing )] of streamId : 10<br/>
+, Correct alias [null] of streamId : 10<br/>
+, Correct displayOrder [10] of streamId : 10<br/>
+, Correct synonyms [[]] of streamId : 10<br/>
+, Correct value of streamId [14] for streamId : 14<br/>
+, Correct name [Banking, Finance & Insurance] of streamId : 14<br/>
+, Correct alias [null] of streamId : 14<br/>
+, Correct displayOrder [14] of streamId : 14<br/>
+, Correct synonyms [[]] of streamId : 14<br/>
+<br> API Response time : 42 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>1,2,3</td>
+<td>NA</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct value of streamId [1] for streamId : 1<br/>
+, Correct name [Business & Management Studies] of streamId : 1<br/>
+, Correct alias [null] of streamId : 1<br/>
+, Correct displayOrder [1] of streamId : 1<br/>
+, Correct synonyms [[Business Management, Business, Management, Business Studies, Management Studies]] of streamId : 1<br/>
+, Correct value of streamId [2] for streamId : 2<br/>
+, Correct name [Engineering] of streamId : 2<br/>
+, Correct alias [null] of streamId : 2<br/>
+, Correct displayOrder [2] of streamId : 2<br/>
+, Correct synonyms [[]] of streamId : 2<br/>
+, Correct value of streamId [3] for streamId : 3<br/>
+, Correct name [Design] of streamId : 3<br/>
+, Correct alias [null] of streamId : 3<br/>
+, Correct displayOrder [3] of streamId : 3<br/>
+, Correct synonyms [[]] of streamId : 3<br/>
+<br> API Response time : 24 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>121,,123</td>
+<td>Integer list must not be empty or null values</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 32 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>10</td>
+<td>NA</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct value of streamId [10] for streamId : 10<br/>
+, Correct name [Arts ( Fine / Visual / Performing )] of streamId : 10<br/>
+, Correct alias [null] of streamId : 10<br/>
+, Correct displayOrder [10] of streamId : 10<br/>
+, Correct synonyms [[]] of streamId : 10<br/>
+<br> API Response time : 44 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>1,100</td>
+<td>NA</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct value of streamId [1] for streamId : 1<br/>
+, Correct name [Business & Management Studies] of streamId : 1<br/>
+, Correct alias [null] of streamId : 1<br/>
+, Correct displayOrder [1] of streamId : 1<br/>
+, Correct synonyms [[Business Management, Business, Management, Business Studies, Management Studies]] of streamId : 1<br/>
+, No data returned for streamId : 100 [Correct]<br/>
+<br> API Response time : 64 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>~!@#$%^&amp;*()_+</td>
+<td>streamIds must have valid data in list</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Negative case<br/>
+, API Response is correct [message : streamIds must have valid data in list]<br/>
+<br> API Response time : 28 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>00000062113</td>
+<td>NA</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, No data returned for streamId : 62113 [Correct]<br/>
+<br> API Response time : 35 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>`1234567890-=</td>
+<td>streamIds must have valid data in list</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Negative case<br/>
+, API Response is correct [message : streamIds must have valid data in list]<br/>
+<br> API Response time : 30 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>121,abc,123</td>
+<td>streamIds must have valid data in list</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Negative case<br/>
+, API Response is correct [message : streamIds must have valid data in list]<br/>
+<br> API Response time : 29 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">baseentities.info.GetMultipleStreams:respnseTimeStats_GetMultipleStreams</h2>
+<div style="padding-left:3em">
+Response time stats for getMultipleStreams api >>> <br/>
+Min time : 24 MS<br/>
+, Max time : 1606 MS<br/>
+, Total time : 2493 MS for 24 inputs<br/>
+, Average time : 103 MS<br/>
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>ignoreInput</td>
+<td>Required List parameter &apos;streamIds&apos; is not present</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Negative case<br/>
+, API Response is correct [message : Required List parameter 'streamIds' is not present]<br/>
+<br> API Response time : 32 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>1</td>
+<td>NA</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct value of streamId [1] for streamId : 1<br/>
+, Correct name [Business & Management Studies] of streamId : 1<br/>
+, Correct alias [null] of streamId : 1<br/>
+, Correct displayOrder [1] of streamId : 1<br/>
+, Correct synonyms [[Business Management, Business, Management, Business Studies, Management Studies]] of streamId : 1<br/>
+<br> API Response time : 31 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td></td>
+<td>Integer list must not be empty or null values</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 1606 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>999999999,9999999009</td>
+<td>streamIds must have valid data in list</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Negative case<br/>
+, API Response is correct [message : streamIds must have valid data in list]<br/>
+<br> API Response time : 32 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">baseentities.info.GetMultipleStreams:verifyGetMultipleStreamsApi</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>{}[]:&apos;;&apos;&lt;&gt;,.</td>
+<td>streamIds must have valid data in list</td>
+</tr>
+<tr><td style="padding-left:3em" colspan="2">
+Negative case<br/>
+, API Response is correct [message : streamIds must have valid data in list]<br/>
+<br> API Response time : 24 MS<br/>
+</td></tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

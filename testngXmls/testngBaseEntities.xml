@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BaseEntitiesApiSuite">
+	<test name="Test">
+		<classes>
+			<class name="baseentities.info.GetMultipleStreams"/>
+			<class name="baseentities.info.GetAllStreams"/>
+			<class name="baseentities.info.GetMultipleSubStreams"/>
+			<class name="baseentities.info.GetAllSubStreams"/>
+			<class name="baseentities.info.GetMultipleSpecializations"/>
+			<class name="baseentities.info.GetAllSpecialization"/>
+			<class name="baseentities.info.GetMultipleBaseCourses"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\vivek.kataria\AppData\Local\Temp\testng-eclipse-2050593776\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="respnseTimeStats_GetMultipleStreams">respnseTimeStats_GetMultipleStreams</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(00000000036,-1,00000000037, NA)">verifyGetMultipleStreamsApi(00000000036,-1,00000000037, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(ignoreHeader, Required List parameter &#039;streamIds&#039; is not present)">verifyGetMultipleStreamsApi(ignoreHeader, Required List parameter 'streamIds' is not present)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(1,2, NA)">verifyGetMultipleStreamsApi(1,2, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(9999999999, streamIds must have valid data in list)">verifyGetMultipleStreamsApi(9999999999, streamIds must have valid data in list)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(                      , Integer list must not be empty or null values)">verifyGetMultipleStreamsApi(                      , Integer list must not be empty or null values)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(1234567890123456789012345678901234567890, streamIds must have valid data in list)">verifyGetMultipleStreamsApi(1234567890123456789012345678901234567890, streamIds must have valid data in list)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(67856483i5hgffdgo7fd89g7df89hbfjkghjkdfhgjkhdfjkghdfg9809g8fghfjkghjkdfhgjhdfjg, streamIds must have...)">verifyGetMultipleStreamsApi(67856483i5hgffdgo7fd89g7df89hbfjkghjkdfhgjkhdfjkghdfg9809g8fghfjkghjkdfhgjhdfjg, streamIds must have...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(19, NA)">verifyGetMultipleStreamsApi(19, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(5, NA)">verifyGetMultipleStreamsApi(5, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(999999999,8,-1, NA)">verifyGetMultipleStreamsApi(999999999,8,-1, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(4,8,9,10,14, NA)">verifyGetMultipleStreamsApi(4,8,9,10,14, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(1,2,3, NA)">verifyGetMultipleStreamsApi(1,2,3, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(121,,123, Integer list must not be empty or null values)">verifyGetMultipleStreamsApi(121,,123, Integer list must not be empty or null values)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(10, NA)">verifyGetMultipleStreamsApi(10, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(1,100, NA)">verifyGetMultipleStreamsApi(1,100, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(~!@#$%^&amp;*()_+, streamIds must have valid data in list)">verifyGetMultipleStreamsApi(~!@#$%^&*()_+, streamIds must have valid data in list)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(00000062113, NA)">verifyGetMultipleStreamsApi(00000062113, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(`1234567890-=, streamIds must have valid data in list)">verifyGetMultipleStreamsApi(`1234567890-=, streamIds must have valid data in list)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(121,abc,123, streamIds must have valid data in list)">verifyGetMultipleStreamsApi(121,abc,123, streamIds must have valid data in list)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(ignoreInput, Required List parameter &#039;streamIds&#039; is not present)">verifyGetMultipleStreamsApi(ignoreInput, Required List parameter 'streamIds' is not present)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(1, NA)">verifyGetMultipleStreamsApi(1, NA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(, Integer list must not be empty or null values)">verifyGetMultipleStreamsApi(, Integer list must not be empty or null values)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi(999999999,9999999009, streamIds must have valid data in list)">verifyGetMultipleStreamsApi(999999999,9999999009, streamIds must have valid data in list)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="baseentities.info.GetMultipleStreams" hash-for-method="verifyGetMultipleStreamsApi({}[]:&#039;;&#039;&lt;&gt;,., streamIds must have valid data in list)">verifyGetMultipleStreamsApi({}[]:';'<>,., streamIds must have valid data in list)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">baseentities.info.GetMultipleStreams</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="respnseTimeStats_GetMultipleStreams">
+                  </a> <!-- respnseTimeStats_GetMultipleStreams -->
+                  <span class="method-name">respnseTimeStats_GetMultipleStreams</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(00000000036,-1,00000000037, NA)">
+                  </a> <!-- verifyGetMultipleStreamsApi(00000000036,-1,00000000037, NA) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(00000000036,-1,00000000037, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(ignoreHeader, Required List parameter &#039;streamIds&#039; is not present)">
+                  </a> <!-- verifyGetMultipleStreamsApi(ignoreHeader, Required List parameter 'streamIds' is not present) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(ignoreHeader, Required List parameter 'streamIds' is not present)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(1,2, NA)">
+                  </a> <!-- verifyGetMultipleStreamsApi(1,2, NA) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(1,2, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(9999999999, streamIds must have valid data in list)">
+                  </a> <!-- verifyGetMultipleStreamsApi(9999999999, streamIds must have valid data in list) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(9999999999, streamIds must have valid data in list)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(                      , Integer list must not be empty or null values)">
+                  </a> <!-- verifyGetMultipleStreamsApi(                      , Integer list must not be empty or null values) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(                      , Integer list must not be empty or null values)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(1234567890123456789012345678901234567890, streamIds must have valid data in list)">
+                  </a> <!-- verifyGetMultipleStreamsApi(1234567890123456789012345678901234567890, streamIds must have valid data in list) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(1234567890123456789012345678901234567890, streamIds must have valid data in list)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(67856483i5hgffdgo7fd89g7df89hbfjkghjkdfhgjkhdfjkghdfg9809g8fghfjkghjkdfhgjhdfjg, streamIds must have...)">
+                  </a> <!-- verifyGetMultipleStreamsApi(67856483i5hgffdgo7fd89g7df89hbfjkghjkdfhgjkhdfjkghdfg9809g8fghfjkghjkdfhgjhdfjg, streamIds must have...) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(67856483i5hgffdgo7fd89g7df89hbfjkghjkdfhgjkhdfjkghdfg9809g8fghfjkghjkdfhgjhdfjg, streamIds must have valid data in list)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(19, NA)">
+                  </a> <!-- verifyGetMultipleStreamsApi(19, NA) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(19, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(5, NA)">
+                  </a> <!-- verifyGetMultipleStreamsApi(5, NA) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(5, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(999999999,8,-1, NA)">
+                  </a> <!-- verifyGetMultipleStreamsApi(999999999,8,-1, NA) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(999999999,8,-1, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(4,8,9,10,14, NA)">
+                  </a> <!-- verifyGetMultipleStreamsApi(4,8,9,10,14, NA) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(4,8,9,10,14, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(1,2,3, NA)">
+                  </a> <!-- verifyGetMultipleStreamsApi(1,2,3, NA) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(1,2,3, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(121,,123, Integer list must not be empty or null values)">
+                  </a> <!-- verifyGetMultipleStreamsApi(121,,123, Integer list must not be empty or null values) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(121,,123, Integer list must not be empty or null values)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(10, NA)">
+                  </a> <!-- verifyGetMultipleStreamsApi(10, NA) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(10, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(1,100, NA)">
+                  </a> <!-- verifyGetMultipleStreamsApi(1,100, NA) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(1,100, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(~!@#$%^&amp;*()_+, streamIds must have valid data in list)">
+                  </a> <!-- verifyGetMultipleStreamsApi(~!@#$%^&*()_+, streamIds must have valid data in list) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(~!@#$%^&*()_+, streamIds must have valid data in list)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(00000062113, NA)">
+                  </a> <!-- verifyGetMultipleStreamsApi(00000062113, NA) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(00000062113, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(`1234567890-=, streamIds must have valid data in list)">
+                  </a> <!-- verifyGetMultipleStreamsApi(`1234567890-=, streamIds must have valid data in list) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(`1234567890-=, streamIds must have valid data in list)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(121,abc,123, streamIds must have valid data in list)">
+                  </a> <!-- verifyGetMultipleStreamsApi(121,abc,123, streamIds must have valid data in list) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(121,abc,123, streamIds must have valid data in list)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(ignoreInput, Required List parameter &#039;streamIds&#039; is not present)">
+                  </a> <!-- verifyGetMultipleStreamsApi(ignoreInput, Required List parameter 'streamIds' is not present) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(ignoreInput, Required List parameter 'streamIds' is not present)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(1, NA)">
+                  </a> <!-- verifyGetMultipleStreamsApi(1, NA) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(1, NA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(, Integer list must not be empty or null values)">
+                  </a> <!-- verifyGetMultipleStreamsApi(, Integer list must not be empty or null values) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(, Integer list must not be empty or null values)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi(999999999,9999999009, streamIds must have valid data in list)">
+                  </a> <!-- verifyGetMultipleStreamsApi(999999999,9999999009, streamIds must have valid data in list) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">(999999999,9999999009, streamIds must have valid data in list)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetMultipleStreamsApi({}[]:&#039;;&#039;&lt;&gt;,., streamIds must have valid data in list)">
+                  </a> <!-- verifyGetMultipleStreamsApi({}[]:';'<>,., streamIds must have valid data in list) -->
+                  <span class="method-name">verifyGetMultipleStreamsApi</span>
+                  <span class="parameters">({}[]:';'<>,., streamIds must have valid data in list)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\vivek.kataria\AppData\Local\Temp\testng-eclipse-2050593776\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;baseentities.info.GetMultipleStreams&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(0, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(0, 3, 3564);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(1, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(1, 3, 1011);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(2, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(2, 3, 893);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(3, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(3, 3, 639);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(4, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(4, 3, 537);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(5, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(5, 3, 484);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(6, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(6, 3, 339);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(7, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(7, 3, 273);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(8, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(8, 3, 203);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(9, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(9, 3, 194);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(10, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(10, 3, 192);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(11, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(11, 3, 188);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(12, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(12, 3, 134);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(13, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(13, 3, 108);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(14, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(14, 3, 94);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(15, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(15, 3, 92);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(16, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(16, 3, 84);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(17, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(17, 3, 84);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(18, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(18, 3, 84);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(19, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(19, 3, 80);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(20, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(20, 3, 79);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(21, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(21, 3, 77);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(22, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(22, 3, 72);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyGetMultipleStreamsApi')
+data.setCell(23, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(23, 3, 72);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'respnseTimeStats_GetMultipleStreams')
+data.setCell(24, 2, 'baseentities.info.GetMultipleStreams')
+data.setCell(24, 3, 0);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(00000000036,-1,00000000037, NA)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Positive case</span>
+                <span class="reporter-method-output">, Correct status [success]</span>
+                <span class="reporter-method-output">, Correct message [null]</span>
+                <span class="reporter-method-output">, No data returned for streamId : 36 [Correct]</span>
+                <span class="reporter-method-output">, No data returned for streamId : -1 [Correct]</span>
+                <span class="reporter-method-output">, No data returned for streamId : 37 [Correct]</span>
+                <span class="reporter-method-output"><br> API Response time : 71 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(ignoreHeader, Required List parameter 'streamIds' is not present)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Negative case</span>
+                <span class="reporter-method-output">, API Response is correct [message : Required List parameter 'streamIds' is not present]</span>
+                <span class="reporter-method-output"><br> API Response time : 32 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(1,2, NA)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Positive case</span>
+                <span class="reporter-method-output">, Correct status [success]</span>
+                <span class="reporter-method-output">, Correct message [null]</span>
+                <span class="reporter-method-output">, Correct value of streamId [1] for streamId : 1</span>
+                <span class="reporter-method-output">, Correct name [Business & Management Studies] of streamId : 1</span>
+                <span class="reporter-method-output">, Correct alias [null] of streamId : 1</span>
+                <span class="reporter-method-output">, Correct displayOrder [1] of streamId : 1</span>
+                <span class="reporter-method-output">, Correct synonyms [[Business Management, Business, Management, Business Studies, Management Studies]] of streamId : 1</span>
+                <span class="reporter-method-output">, Correct value of streamId [2] for streamId : 2</span>
+                <span class="reporter-method-output">, Correct name [Engineering] of streamId : 2</span>
+                <span class="reporter-method-output">, Correct alias [null] of streamId : 2</span>
+                <span class="reporter-method-output">, Correct displayOrder [2] of streamId : 2</span>
+                <span class="reporter-method-output">, Correct synonyms [[]] of streamId : 2</span>
+                <span class="reporter-method-output"><br> API Response time : 43 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(9999999999, streamIds must have valid data in list)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Negative case</span>
+                <span class="reporter-method-output">, API Response is correct [message : streamIds must have valid data in list]</span>
+                <span class="reporter-method-output"><br> API Response time : 50 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(                      , Integer list must not be empty or null values)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Negative case</span>
+                <span class="reporter-method-output">, API Response is correct [message : Integer list must not be empty or null values]</span>
+                <span class="reporter-method-output"><br> API Response time : 44 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(1234567890123456789012345678901234567890, streamIds must have valid data in list)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Negative case</span>
+                <span class="reporter-method-output">, API Response is correct [message : streamIds must have valid data in list]</span>
+                <span class="reporter-method-output"><br> API Response time : 36 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(67856483i5hgffdgo7fd89g7df89hbfjkghjkdfhgjkhdfjkghdfg9809g8fghfjkghjkdfhgjhdfjg, streamIds must have...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Negative case</span>
+                <span class="reporter-method-output">, API Response is correct [message : streamIds must have valid data in list]</span>
+                <span class="reporter-method-output"><br> API Response time : 40 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(19, NA)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Positive case</span>
+                <span class="reporter-method-output">, Correct status [success]</span>
+                <span class="reporter-method-output">, Correct message [null]</span>
+                <span class="reporter-method-output">, Correct value of streamId [19] for streamId : 19</span>
+                <span class="reporter-method-output">, Correct name [Beauty & Fitness] of streamId : 19</span>
+                <span class="reporter-method-output">, Correct alias [null] of streamId : 19</span>
+                <span class="reporter-method-output">, Correct displayOrder [19] of streamId : 19</span>
+                <span class="reporter-method-output">, Correct synonyms [[]] of streamId : 19</span>
+                <span class="reporter-method-output"><br> API Response time : 57 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(5, NA)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Positive case</span>
+                <span class="reporter-method-output">, Correct status [success]</span>
+                <span class="reporter-method-output">, Correct message [null]</span>
+                <span class="reporter-method-output">, Correct value of streamId [5] for streamId : 5</span>
+                <span class="reporter-method-output">, Correct name [Law] of streamId : 5</span>
+                <span class="reporter-method-output">, Correct alias [null] of streamId : 5</span>
+                <span class="reporter-method-output">, Correct displayOrder [5] of streamId : 5</span>
+                <span class="reporter-method-output">, Correct synonyms [[]] of streamId : 5</span>
+                <span class="reporter-method-output"><br> API Response time : 27 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(999999999,8,-1, NA)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Positive case</span>
+                <span class="reporter-method-output">, Correct status [success]</span>
+                <span class="reporter-method-output">, Correct message [null]</span>
+                <span class="reporter-method-output">, No data returned for streamId : 999999999 [Correct]</span>
+                <span class="reporter-method-output">, Correct value of streamId [8] for streamId : 8</span>
+                <span class="reporter-method-output">, Correct name [IT & Software] of streamId : 8</span>
+                <span class="reporter-method-output">, Correct alias [null] of streamId : 8</span>
+                <span class="reporter-method-output">, Correct displayOrder [8] of streamId : 8</span>
+                <span class="reporter-method-output">, Correct synonyms [[]] of streamId : 8</span>
+                <span class="reporter-method-output">, No data returned for streamId : -1 [Correct]</span>
+                <span class="reporter-method-output"><br> API Response time : 40 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(4,8,9,10,14, NA)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Positive case</span>
+                <span class="reporter-method-output">, Correct status [success]</span>
+                <span class="reporter-method-output">, Correct message [null]</span>
+                <span class="reporter-method-output">, Correct value of streamId [4] for streamId : 4</span>
+                <span class="reporter-method-output">, Correct name [Hospitality & Travel] of streamId : 4</span>
+                <span class="reporter-method-output">, Correct alias [null] of streamId : 4</span>
+                <span class="reporter-method-output">, Correct displayOrder [4] of streamId : 4</span>
+                <span class="reporter-method-output">, Correct synonyms [[]] of streamId : 4</span>
+                <span class="reporter-method-output">, Correct value of streamId [8] for streamId : 8</span>
+                <span class="reporter-method-output">, Correct name [IT & Software] of streamId : 8</span>
+                <span class="reporter-method-output">, Correct alias [null] of streamId : 8</span>
+                <span class="reporter-method-output">, Correct displayOrder [8] of streamId : 8</span>
+                <span class="reporter-method-output">, Correct synonyms [[]] of streamId : 8</span>
+                <span class="reporter-method-output">, Correct value of streamId [9] for streamId : 9</span>
+                <span class="reporter-method-output">, Correct name [Humanities & Social Sciences] of streamId : 9</span>
+                <span class="reporter-method-output">, Correct alias [null] of streamId : 9</span>
+                <span class="reporter-method-output">, Correct displayOrder [9] of streamId : 9</span>
+                <span class="reporter-method-output">, Correct synonyms [[]] of streamId : 9</span>
+                <span class="reporter-method-output">, Correct value of streamId [10] for streamId : 10</span>
+                <span class="reporter-method-output">, Correct name [Arts ( Fine / Visual / Performing )] of streamId : 10</span>
+                <span class="reporter-method-output">, Correct alias [null] of streamId : 10</span>
+                <span class="reporter-method-output">, Correct displayOrder [10] of streamId : 10</span>
+                <span class="reporter-method-output">, Correct synonyms [[]] of streamId : 10</span>
+                <span class="reporter-method-output">, Correct value of streamId [14] for streamId : 14</span>
+                <span class="reporter-method-output">, Correct name [Banking, Finance & Insurance] of streamId : 14</span>
+                <span class="reporter-method-output">, Correct alias [null] of streamId : 14</span>
+                <span class="reporter-method-output">, Correct displayOrder [14] of streamId : 14</span>
+                <span class="reporter-method-output">, Correct synonyms [[]] of streamId : 14</span>
+                <span class="reporter-method-output"><br> API Response time : 42 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(1,2,3, NA)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Positive case</span>
+                <span class="reporter-method-output">, Correct status [success]</span>
+                <span class="reporter-method-output">, Correct message [null]</span>
+                <span class="reporter-method-output">, Correct value of streamId [1] for streamId : 1</span>
+                <span class="reporter-method-output">, Correct name [Business & Management Studies] of streamId : 1</span>
+                <span class="reporter-method-output">, Correct alias [null] of streamId : 1</span>
+                <span class="reporter-method-output">, Correct displayOrder [1] of streamId : 1</span>
+                <span class="reporter-method-output">, Correct synonyms [[Business Management, Business, Management, Business Studies, Management Studies]] of streamId : 1</span>
+                <span class="reporter-method-output">, Correct value of streamId [2] for streamId : 2</span>
+                <span class="reporter-method-output">, Correct name [Engineering] of streamId : 2</span>
+                <span class="reporter-method-output">, Correct alias [null] of streamId : 2</span>
+                <span class="reporter-method-output">, Correct displayOrder [2] of streamId : 2</span>
+                <span class="reporter-method-output">, Correct synonyms [[]] of streamId : 2</span>
+                <span class="reporter-method-output">, Correct value of streamId [3] for streamId : 3</span>
+                <span class="reporter-method-output">, Correct name [Design] of streamId : 3</span>
+                <span class="reporter-method-output">, Correct alias [null] of streamId : 3</span>
+                <span class="reporter-method-output">, Correct displayOrder [3] of streamId : 3</span>
+                <span class="reporter-method-output">, Correct synonyms [[]] of streamId : 3</span>
+                <span class="reporter-method-output"><br> API Response time : 24 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(121,,123, Integer list must not be empty or null values)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Negative case</span>
+                <span class="reporter-method-output">, API Response is correct [message : Integer list must not be empty or null values]</span>
+                <span class="reporter-method-output"><br> API Response time : 32 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(10, NA)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Positive case</span>
+                <span class="reporter-method-output">, Correct status [success]</span>
+                <span class="reporter-method-output">, Correct message [null]</span>
+                <span class="reporter-method-output">, Correct value of streamId [10] for streamId : 10</span>
+                <span class="reporter-method-output">, Correct name [Arts ( Fine / Visual / Performing )] of streamId : 10</span>
+                <span class="reporter-method-output">, Correct alias [null] of streamId : 10</span>
+                <span class="reporter-method-output">, Correct displayOrder [10] of streamId : 10</span>
+                <span class="reporter-method-output">, Correct synonyms [[]] of streamId : 10</span>
+                <span class="reporter-method-output"><br> API Response time : 44 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(1,100, NA)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Positive case</span>
+                <span class="reporter-method-output">, Correct status [success]</span>
+                <span class="reporter-method-output">, Correct message [null]</span>
+                <span class="reporter-method-output">, Correct value of streamId [1] for streamId : 1</span>
+                <span class="reporter-method-output">, Correct name [Business & Management Studies] of streamId : 1</span>
+                <span class="reporter-method-output">, Correct alias [null] of streamId : 1</span>
+                <span class="reporter-method-output">, Correct displayOrder [1] of streamId : 1</span>
+                <span class="reporter-method-output">, Correct synonyms [[Business Management, Business, Management, Business Studies, Management Studies]] of streamId : 1</span>
+                <span class="reporter-method-output">, No data returned for streamId : 100 [Correct]</span>
+                <span class="reporter-method-output"><br> API Response time : 64 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(~!@#$%^&*()_+, streamIds must have valid data in list)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Negative case</span>
+                <span class="reporter-method-output">, API Response is correct [message : streamIds must have valid data in list]</span>
+                <span class="reporter-method-output"><br> API Response time : 28 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(00000062113, NA)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Positive case</span>
+                <span class="reporter-method-output">, Correct status [success]</span>
+                <span class="reporter-method-output">, Correct message [null]</span>
+                <span class="reporter-method-output">, No data returned for streamId : 62113 [Correct]</span>
+                <span class="reporter-method-output"><br> API Response time : 35 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(`1234567890-=, streamIds must have valid data in list)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Negative case</span>
+                <span class="reporter-method-output">, API Response is correct [message : streamIds must have valid data in list]</span>
+                <span class="reporter-method-output"><br> API Response time : 30 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(121,abc,123, streamIds must have valid data in list)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Negative case</span>
+                <span class="reporter-method-output">, API Response is correct [message : streamIds must have valid data in list]</span>
+                <span class="reporter-method-output"><br> API Response time : 29 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">respnseTimeStats_GetMultipleStreams</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Response time stats for getMultipleStreams api >>> </span>
+                <span class="reporter-method-output">Min time : 24 MS</span>
+                <span class="reporter-method-output">, Max time : 1606 MS</span>
+                <span class="reporter-method-output">, Total time : 2493 MS for 24 inputs</span>
+                <span class="reporter-method-output">, Average time : 103 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(ignoreInput, Required List parameter 'streamIds' is not present)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Negative case</span>
+                <span class="reporter-method-output">, API Response is correct [message : Required List parameter 'streamIds' is not present]</span>
+                <span class="reporter-method-output"><br> API Response time : 32 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(1, NA)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Positive case</span>
+                <span class="reporter-method-output">, Correct status [success]</span>
+                <span class="reporter-method-output">, Correct message [null]</span>
+                <span class="reporter-method-output">, Correct value of streamId [1] for streamId : 1</span>
+                <span class="reporter-method-output">, Correct name [Business & Management Studies] of streamId : 1</span>
+                <span class="reporter-method-output">, Correct alias [null] of streamId : 1</span>
+                <span class="reporter-method-output">, Correct displayOrder [1] of streamId : 1</span>
+                <span class="reporter-method-output">, Correct synonyms [[Business Management, Business, Management, Business Studies, Management Studies]] of streamId : 1</span>
+                <span class="reporter-method-output"><br> API Response time : 31 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(, Integer list must not be empty or null values)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Negative case</span>
+                <span class="reporter-method-output">, API Response is correct [message : Integer list must not be empty or null values]</span>
+                <span class="reporter-method-output"><br> API Response time : 1606 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi(999999999,9999999009, streamIds must have valid data in list)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Negative case</span>
+                <span class="reporter-method-output">, API Response is correct [message : streamIds must have valid data in list]</span>
+                <span class="reporter-method-output"><br> API Response time : 32 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyGetMultipleStreamsApi({}[]:';'<>,., streamIds must have valid data in list)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Negative case</span>
+                <span class="reporter-method-output">, API Response is correct [message : streamIds must have valid data in list]</span>
+                <span class="reporter-method-output"><br> API Response time : 24 MS</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">baseentities.info.GetMultipleStreams</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">doItBeforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(, Integer list must not be empty or null values)</span>
+                <span class="method-start">1090 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(00000000036,-1,00000000037, NA)</span>
+                <span class="method-start">4660 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(                      , Integer list must not be empty or null values)</span>
+                <span class="method-start">5673 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(00000062113, NA)</span>
+                <span class="method-start">5809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(121,,123, Integer list must not be empty or null values)</span>
+                <span class="method-start">6010 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(999999999,8,-1, NA)</span>
+                <span class="method-start">6108 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(~!@#$%^&*()_+, streamIds must have valid data in list)</span>
+                <span class="method-start">6749 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(19, NA)</span>
+                <span class="method-start">6841 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(`1234567890-=, streamIds must have valid data in list)</span>
+                <span class="method-start">7116 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi({}[]:';'<>,., streamIds must have valid data in list)</span>
+                <span class="method-start">7196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(67856483i5hgffdgo7fd89g7df89hbfjkghjkdfhgjkhdfjkghdfg9809g8fghfjkghjkdfhgjhdfjg, streamIds must have...)</span>
+                <span class="method-start">7284 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(121,abc,123, streamIds must have valid data in list)</span>
+                <span class="method-start">7365 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(1234567890123456789012345678901234567890, streamIds must have valid data in list)</span>
+                <span class="method-start">7444 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(1, NA)</span>
+                <span class="method-start">7533 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(1,2, NA)</span>
+                <span class="method-start">7736 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(1,100, NA)</span>
+                <span class="method-start">8228 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(1,2,3, NA)</span>
+                <span class="method-start">8568 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(4,8,9,10,14, NA)</span>
+                <span class="method-start">9108 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(5, NA)</span>
+                <span class="method-start">10009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(10, NA)</span>
+                <span class="method-start">10201 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(ignoreHeader, Required List parameter 'streamIds' is not present)</span>
+                <span class="method-start">10389 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(9999999999, streamIds must have valid data in list)</span>
+                <span class="method-start">10461 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(ignoreInput, Required List parameter 'streamIds' is not present)</span>
+                <span class="method-start">10553 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyGetMultipleStreamsApi(999999999,9999999009, streamIds must have valid data in list)</span>
+                <span class="method-start">10637 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">respnseTimeStats_GetMultipleStreams</span>
+                <span class="method-start">10753 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

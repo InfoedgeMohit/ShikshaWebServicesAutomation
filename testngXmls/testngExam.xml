@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ExamApiSuite">
+	<test name="Test">
+		<classes>
+			<class name="exam.info.GetAllExamsByHierarchiesAndBaseCourses"/>
+			<class name="exam.info.GetExamYears"/>
+			<class name="exam.info.GetExamList"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

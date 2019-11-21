@@ -1,0 +1,2967 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>167/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 21 11:44:17 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>33 seconds (33398 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='location.info.GetMultipleCities.respnseTimeStats_GetMultipleCities()'><b>respnseTimeStats_GetMultipleCities</b><br>Test class: location.info.GetMultipleCities<br/>
+<a href="#Output-1446825265" onClick='toggleBox("Output-1446825265", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1446825265" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1446825265">
+Response time stats for getMultipleCities api >>> <br/>
+Min time : 16 MS<br/>
+, Max time : 51 MS<br/>
+, Total time : 868 MS for 28 inputs<br/>
+, Average time : 31 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.respnseTimeStats_GetMultipleCitiesName()'><b>respnseTimeStats_GetMultipleCitiesName</b><br>Test class: location.info.GetMultipleCitiesName<br/>
+<a href="#Output-688722159" onClick='toggleBox("Output-688722159", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-688722159" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-688722159">
+Response time stats for getMultipleCitiesName api >>> <br/>
+Min time : 14 MS<br/>
+, Max time : 59 MS<br/>
+, Total time : 715 MS for 26 inputs<br/>
+, Average time : 27 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.respnseTimeStats_GetMultipleLocalities()'><b>respnseTimeStats_GetMultipleLocalities</b><br>Test class: location.info.GetMultipleLocalities<br/>
+<a href="#Output-195730660" onClick='toggleBox("Output-195730660", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-195730660" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-195730660">
+Response time stats for getMultipleLocalities api >>> <br/>
+Min time : 11 MS<br/>
+, Max time : 41 MS<br/>
+, Total time : 476 MS for 24 inputs<br/>
+, Average time : 19 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.respnseTimeStats_GetMultipleLocalitiesName()'><b>respnseTimeStats_GetMultipleLocalitiesName</b><br>Test class: location.info.GetMultipleLocalitiesName<br/>
+<a href="#Output-994632067" onClick='toggleBox("Output-994632067", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-994632067" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-994632067">
+Response time stats for getMultipleLocalitiesName api >>> <br/>
+Min time : 14 MS<br/>
+, Max time : 47 MS<br/>
+, Total time : 608 MS for 24 inputs<br/>
+, Average time : 25 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.respnseTimeStats_GetMultipleStates()'><b>respnseTimeStats_GetMultipleStates</b><br>Test class: location.info.GetMultipleStates<br/>
+<a href="#Output-160549854" onClick='toggleBox("Output-160549854", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-160549854" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-160549854">
+Response time stats for getMultipleStates api >>> <br/>
+Min time : 10 MS<br/>
+, Max time : 3016 MS<br/>
+, Total time : 3660 MS for 27 inputs<br/>
+, Average time : 135 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.respnseTimeStats_GetMultipleStatesName()'><b>respnseTimeStats_GetMultipleStatesName</b><br>Test class: location.info.GetMultipleStatesName<br/>
+<a href="#Output-1939970407" onClick='toggleBox("Output-1939970407", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1939970407" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1939970407">
+Response time stats for getMultipleStatesName api >>> <br/>
+Min time : 20 MS<br/>
+, Max time : 1056 MS<br/>
+, Total time : 2494 MS for 26 inputs<br/>
+, Average time : 95 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 1234567890123456789012345678901234567890, cityIds must have valid data in list<br/>
+<a href="#Output-800218956" onClick='toggleBox("Output-800218956", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-800218956" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-800218956">
+Negative case<br/>
+, API Response is correct [message : cityIds must have valid data in list]<br/>
+<br> API Response time : 16 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 9999999999, cityIds must have valid data in list<br/>
+<a href="#Output-1167068004" onClick='toggleBox("Output-1167068004", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1167068004" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1167068004">
+Negative case<br/>
+, API Response is correct [message : cityIds must have valid data in list]<br/>
+<br> API Response time : 16 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 999999999,9999999009, cityIds must have valid data in list<br/>
+<a href="#Output-1262693971" onClick='toggleBox("Output-1262693971", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1262693971" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1262693971">
+Negative case<br/>
+, API Response is correct [message : cityIds must have valid data in list]<br/>
+<br> API Response time : 34 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 00000000036,-1,00000000037, NA<br/>
+<a href="#Output-132065521" onClick='toggleBox("Output-132065521", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-132065521" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-132065521">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct cityId [36] of cityId : 36<br/>
+, Correct name [Ambala] of cityId : 36<br/>
+, Correct value of enabled [0] for cityId : 36<br/>
+, Correct value of tier [3] for cityId : 36<br/>
+, Correct value of stateId [105] for cityId : 36<br/>
+, Correct value of countryId [2] for cityId : 36<br/>
+, Correct value of virtualCityId [0] for cityId : 36<br/>
+, No data returned for cityId : -1 [Correct]<br/>
+, Correct cityId [37] of cityId : 37<br/>
+, Correct name [Amritsar] of cityId : 37<br/>
+, Correct value of enabled [0] for cityId : 37<br/>
+, Correct value of tier [3] for cityId : 37<br/>
+, Correct value of stateId [120] for cityId : 37<br/>
+, Correct value of countryId [2] for cityId : 37<br/>
+, Correct value of virtualCityId [0] for cityId : 37<br/>
+<br> API Response time : 33 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 00000062113, NA<br/>
+<a href="#Output-275448142" onClick='toggleBox("Output-275448142", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-275448142" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-275448142">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, No data returned for cityId : 62113 [Correct]<br/>
+<br> API Response time : 47 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 999999999,114,-1, NA<br/>
+<a href="#Output-296954388" onClick='toggleBox("Output-296954388", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-296954388" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-296954388">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, No data returned for cityId : 999999999 [Correct]<br/>
+, Correct cityId [114] of cityId : 114<br/>
+, Correct name [Jammu & Kashmir - Other] of cityId : 114<br/>
+, Correct value of enabled [0] for cityId : 114<br/>
+, Correct value of tier [3] for cityId : 114<br/>
+, Correct value of stateId [111] for cityId : 114<br/>
+, Correct value of countryId [2] for cityId : 114<br/>
+, Correct value of virtualCityId [0] for cityId : 114<br/>
+, No data returned for cityId : -1 [Correct]<br/>
+<br> API Response time : 51 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 10223, NA<br/>
+<a href="#Output-326692514" onClick='toggleBox("Output-326692514", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-326692514" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-326692514">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct cityId [10223] of cityId : 10223<br/>
+, Correct name [Delhi/NCR] of cityId : 10223<br/>
+, Correct value of enabled [1] for cityId : 10223<br/>
+, Correct value of tier [1] for cityId : 10223<br/>
+, Correct value of stateId [-1] for cityId : 10223<br/>
+, Correct value of countryId [2] for cityId : 10223<br/>
+, Correct value of virtualCityId [0] for cityId : 10223<br/>
+<br> API Response time : 28 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 74,151, NA<br/>
+<a href="#Output-117859171" onClick='toggleBox("Output-117859171", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-117859171" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-117859171">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct cityId [74] of cityId : 74<br/>
+, Correct name [Delhi] of cityId : 74<br/>
+, Correct value of enabled [0] for cityId : 74<br/>
+, Correct value of tier [1] for cityId : 74<br/>
+, Correct value of stateId [128] for cityId : 74<br/>
+, Correct value of countryId [2] for cityId : 74<br/>
+, Correct value of virtualCityId [10223] for cityId : 74<br/>
+, Correct cityId [151] of cityId : 151<br/>
+, Correct name [Mumbai] of cityId : 151<br/>
+, Correct value of enabled [0] for cityId : 151<br/>
+, Correct value of tier [1] for cityId : 151<br/>
+, Correct value of stateId [114] for cityId : 151<br/>
+, Correct value of countryId [2] for cityId : 151<br/>
+, Correct value of virtualCityId [10224] for cityId : 151<br/>
+<br> API Response time : 35 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 1989, NA<br/>
+<a href="#Output-977772506" onClick='toggleBox("Output-977772506", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-977772506" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-977772506">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct cityId [1989] of cityId : 1989<br/>
+, Correct name [Leh] of cityId : 1989<br/>
+, Correct value of enabled [0] for cityId : 1989<br/>
+, Correct value of tier [3] for cityId : 1989<br/>
+, Correct value of stateId [111] for cityId : 1989<br/>
+, Correct value of countryId [2] for cityId : 1989<br/>
+, Correct value of virtualCityId [0] for cityId : 1989<br/>
+<br> API Response time : 26 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 10516, NA<br/>
+<a href="#Output-698562080" onClick='toggleBox("Output-698562080", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-698562080" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-698562080">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct cityId [10516] of cityId : 10516<br/>
+, Correct name [Dadra And Nagar Haveli - Other] of cityId : 10516<br/>
+, Correct value of enabled [0] for cityId : 10516<br/>
+, Correct value of tier [3] for cityId : 10516<br/>
+, Correct value of stateId [136] for cityId : 10516<br/>
+, Correct value of countryId [2] for cityId : 10516<br/>
+, Correct value of virtualCityId [0] for cityId : 10516<br/>
+<br> API Response time : 37 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: ignoreHeader, NA</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: ignoreInput, Required List parameter 'cityIds' is not present<br/>
+<a href="#Output-584580417" onClick='toggleBox("Output-584580417", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-584580417" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-584580417">
+Negative case<br/>
+, API Response is correct [message : Required List parameter 'cityIds' is not present]<br/>
+<br> API Response time : 22 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: , Integer list must not be empty or null values<br/>
+<a href="#Output-44332439" onClick='toggleBox("Output-44332439", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-44332439" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-44332439">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 29 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters:                       , Integer list must not be empty or null values<br/>
+<a href="#Output-1058708051" onClick='toggleBox("Output-1058708051", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1058708051" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1058708051">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 32 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 121,,123, Integer list must not be empty or null values<br/>
+<a href="#Output-512734831" onClick='toggleBox("Output-512734831", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-512734831" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-512734831">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 33 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: ~!@#$%^&*()_+, cityIds must have valid data in list<br/>
+<a href="#Output-265556987" onClick='toggleBox("Output-265556987", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-265556987" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-265556987">
+Negative case<br/>
+, API Response is correct [message : cityIds must have valid data in list]<br/>
+<br> API Response time : 40 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: `1234567890-=, cityIds must have valid data in list<br/>
+<a href="#Output-1986679541" onClick='toggleBox("Output-1986679541", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1986679541" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1986679541">
+Negative case<br/>
+, API Response is correct [message : cityIds must have valid data in list]<br/>
+<br> API Response time : 20 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: {}[]:';'<>,., cityIds must have valid data in list<br/>
+<a href="#Output-1883269062" onClick='toggleBox("Output-1883269062", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1883269062" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1883269062">
+Negative case<br/>
+, API Response is correct [message : cityIds must have valid data in list]<br/>
+<br> API Response time : 32 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 33, NA<br/>
+<a href="#Output-1071550332" onClick='toggleBox("Output-1071550332", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1071550332" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1071550332">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct cityId [33] of cityId : 33<br/>
+, Correct name [Ajmer] of cityId : 33<br/>
+, Correct value of enabled [0] for cityId : 33<br/>
+, Correct value of tier [3] for cityId : 33<br/>
+, Correct value of stateId [121] for cityId : 33<br/>
+, Correct value of countryId [2] for cityId : 33<br/>
+, Correct value of virtualCityId [0] for cityId : 33<br/>
+<br> API Response time : 31 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 33,10507, NA<br/>
+<a href="#Output-1501790806" onClick='toggleBox("Output-1501790806", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1501790806" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1501790806">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct cityId [33] of cityId : 33<br/>
+, Correct name [Ajmer] of cityId : 33<br/>
+, Correct value of enabled [0] for cityId : 33<br/>
+, Correct value of tier [3] for cityId : 33<br/>
+, Correct value of stateId [121] for cityId : 33<br/>
+, Correct value of countryId [2] for cityId : 33<br/>
+, Correct value of virtualCityId [0] for cityId : 33<br/>
+, Correct cityId [10507] of cityId : 10507<br/>
+, Correct name [Sriganaganagar] of cityId : 10507<br/>
+, Correct value of enabled [0] for cityId : 10507<br/>
+, Correct value of tier [3] for cityId : 10507<br/>
+, Correct value of stateId [121] for cityId : 10507<br/>
+, Correct value of countryId [2] for cityId : 10507<br/>
+, Correct value of virtualCityId [0] for cityId : 10507<br/>
+<br> API Response time : 36 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 80,81, NA<br/>
+<a href="#Output-1629173206" onClick='toggleBox("Output-1629173206", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1629173206" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1629173206">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct cityId [80] of cityId : 80<br/>
+, Correct name [Durgapur] of cityId : 80<br/>
+, Correct value of enabled [0] for cityId : 80<br/>
+, Correct value of tier [3] for cityId : 80<br/>
+, Correct value of stateId [127] for cityId : 80<br/>
+, Correct value of countryId [2] for cityId : 80<br/>
+, Correct value of virtualCityId [0] for cityId : 80<br/>
+, No data returned for cityId : 81 [Correct]<br/>
+<br> API Response time : 47 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 11181, NA<br/>
+<a href="#Output-1543871080" onClick='toggleBox("Output-1543871080", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1543871080" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1543871080">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct cityId [11181] of cityId : 11181<br/>
+, Correct name [Bournemouth] of cityId : 11181<br/>
+, Correct value of enabled [0] for cityId : 11181<br/>
+, Correct value of tier [1] for cityId : 11181<br/>
+, Correct value of stateId [219] for cityId : 11181<br/>
+, Correct value of countryId [4] for cityId : 11181<br/>
+, Correct value of virtualCityId [0] for cityId : 11181<br/>
+<br> API Response time : 26 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 11326,11381, NA<br/>
+<a href="#Output-1235151206" onClick='toggleBox("Output-1235151206", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1235151206" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1235151206">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct cityId [11326] of cityId : 11326<br/>
+, Correct name [University Heights] of cityId : 11326<br/>
+, Correct value of enabled [0] for cityId : 11326<br/>
+, Correct value of tier [1] for cityId : 11326<br/>
+, Correct value of stateId [181] for cityId : 11326<br/>
+, Correct value of countryId [3] for cityId : 11326<br/>
+, Correct value of virtualCityId [0] for cityId : 11326<br/>
+, Correct cityId [11381] of cityId : 11381<br/>
+, Correct name [Donetsk] of cityId : 11381<br/>
+, Correct value of enabled [0] for cityId : 11381<br/>
+, Correct value of tier [1] for cityId : 11381<br/>
+, Correct value of stateId [-1] for cityId : 11381<br/>
+, Correct value of countryId [44] for cityId : 11381<br/>
+, Correct value of virtualCityId [0] for cityId : 11381<br/>
+<br> API Response time : 23 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 11815,11910,815, NA<br/>
+<a href="#Output-1886478937" onClick='toggleBox("Output-1886478937", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1886478937" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1886478937">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct cityId [11815] of cityId : 11815<br/>
+, Correct name [Tacoma] of cityId : 11815<br/>
+, Correct value of enabled [0] for cityId : 11815<br/>
+, Correct value of tier [1] for cityId : 11815<br/>
+, Correct value of stateId [193] for cityId : 11815<br/>
+, Correct value of countryId [3] for cityId : 11815<br/>
+, Correct value of virtualCityId [0] for cityId : 11815<br/>
+, Correct cityId [11910] of cityId : 11910<br/>
+, Correct name [Gambier] of cityId : 11910<br/>
+, Correct value of enabled [0] for cityId : 11910<br/>
+, Correct value of tier [1] for cityId : 11910<br/>
+, Correct value of stateId [181] for cityId : 11910<br/>
+, Correct value of countryId [3] for cityId : 11910<br/>
+, Correct value of virtualCityId [0] for cityId : 11910<br/>
+, Correct cityId [815] of cityId : 815<br/>
+, Correct name [Hassan] of cityId : 815<br/>
+, Correct value of enabled [0] for cityId : 815<br/>
+, Correct value of tier [3] for cityId : 815<br/>
+, Correct value of stateId [106] for cityId : 815<br/>
+, Correct value of countryId [2] for cityId : 815<br/>
+, Correct value of virtualCityId [0] for cityId : 815<br/>
+<br> API Response time : 47 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 40,42,44, NA<br/>
+<a href="#Output-1655562261" onClick='toggleBox("Output-1655562261", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1655562261" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1655562261">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct cityId [40] of cityId : 40<br/>
+, Correct name [Andhra Pradesh - Other] of cityId : 40<br/>
+, Correct value of enabled [0] for cityId : 40<br/>
+, Correct value of tier [3] for cityId : 40<br/>
+, Correct value of stateId [100] for cityId : 40<br/>
+, Correct value of countryId [2] for cityId : 40<br/>
+, Correct value of virtualCityId [0] for cityId : 40<br/>
+, Correct cityId [42] of cityId : 42<br/>
+, Correct name [Arunachal Pradesh - Other] of cityId : 42<br/>
+, Correct value of enabled [0] for cityId : 42<br/>
+, Correct value of tier [3] for cityId : 42<br/>
+, Correct value of stateId [101] for cityId : 42<br/>
+, Correct value of countryId [2] for cityId : 42<br/>
+, Correct value of virtualCityId [0] for cityId : 42<br/>
+, Correct cityId [44] of cityId : 44<br/>
+, Correct name [Assam - Other] of cityId : 44<br/>
+, Correct value of enabled [0] for cityId : 44<br/>
+, Correct value of tier [3] for cityId : 44<br/>
+, Correct value of stateId [102] for cityId : 44<br/>
+, Correct value of countryId [2] for cityId : 44<br/>
+, Correct value of virtualCityId [0] for cityId : 44<br/>
+<br> API Response time : 25 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 11151,12307,11134,12333, NA<br/>
+<a href="#Output-124351398" onClick='toggleBox("Output-124351398", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-124351398" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-124351398">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct cityId [11151] of cityId : 11151<br/>
+, Correct name [St. John's] of cityId : 11151<br/>
+, Correct value of enabled [0] for cityId : 11151<br/>
+, Correct value of tier [1] for cityId : 11151<br/>
+, Correct value of stateId [146] for cityId : 11151<br/>
+, Correct value of countryId [8] for cityId : 11151<br/>
+, Correct value of virtualCityId [0] for cityId : 11151<br/>
+, Correct cityId [12307] of cityId : 12307<br/>
+, Correct name ['s-Hertogenbosch] of cityId : 12307<br/>
+, Correct value of enabled [0] for cityId : 12307<br/>
+, Correct value of tier [1] for cityId : 12307<br/>
+, Correct value of stateId [-1] for cityId : 12307<br/>
+, Correct value of countryId [14] for cityId : 12307<br/>
+, Correct value of virtualCityId [0] for cityId : 12307<br/>
+, Correct cityId [11134] of cityId : 11134<br/>
+, Correct name [Sault Ste. Marie] of cityId : 11134<br/>
+, Correct value of enabled [0] for cityId : 11134<br/>
+, Correct value of tier [1] for cityId : 11134<br/>
+, Correct value of stateId [137] for cityId : 11134<br/>
+, Correct value of countryId [8] for cityId : 11134<br/>
+, Correct value of virtualCityId [0] for cityId : 11134<br/>
+, Correct cityId [12333] of cityId : 12333<br/>
+, Correct name [Cz?stochowa] of cityId : 12333<br/>
+, Correct value of enabled [0] for cityId : 12333<br/>
+, Correct value of tier [1] for cityId : 12333<br/>
+, Correct value of stateId [-1] for cityId : 12333<br/>
+, Correct value of countryId [25] for cityId : 12333<br/>
+, Correct value of virtualCityId [0] for cityId : 12333<br/>
+<br> API Response time : 19 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 72,114,10224,10684, NA<br/>
+<a href="#Output-2098992714" onClick='toggleBox("Output-2098992714", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2098992714" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2098992714">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct cityId [72] of cityId : 72<br/>
+, Correct name [Daman & Diu] of cityId : 72<br/>
+, Correct value of enabled [0] for cityId : 72<br/>
+, Correct value of tier [3] for cityId : 72<br/>
+, Correct value of stateId [135] for cityId : 72<br/>
+, Correct value of countryId [2] for cityId : 72<br/>
+, Correct value of virtualCityId [0] for cityId : 72<br/>
+, Correct cityId [114] of cityId : 114<br/>
+, Correct name [Jammu & Kashmir - Other] of cityId : 114<br/>
+, Correct value of enabled [0] for cityId : 114<br/>
+, Correct value of tier [3] for cityId : 114<br/>
+, Correct value of stateId [111] for cityId : 114<br/>
+, Correct value of countryId [2] for cityId : 114<br/>
+, Correct value of virtualCityId [0] for cityId : 114<br/>
+, Correct cityId [10224] of cityId : 10224<br/>
+, Correct name [Mumbai (All)] of cityId : 10224<br/>
+, Correct value of enabled [1] for cityId : 10224<br/>
+, Correct value of tier [1] for cityId : 10224<br/>
+, Correct value of stateId [-1] for cityId : 10224<br/>
+, Correct value of countryId [2] for cityId : 10224<br/>
+, Correct value of virtualCityId [0] for cityId : 10224<br/>
+, Correct cityId [10684] of cityId : 10684<br/>
+, Correct name [Bilaspur(CG)] of cityId : 10684<br/>
+, Correct value of enabled [0] for cityId : 10684<br/>
+, Correct value of tier [3] for cityId : 10684<br/>
+, Correct value of stateId [104] for cityId : 10684<br/>
+, Correct value of countryId [2] for cityId : 10684<br/>
+, Correct value of virtualCityId [0] for cityId : 10684<br/>
+<br> API Response time : 34 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 67856483i5hgffdgo7fd89g7df89hbfjkghjkdfhgjkhdfjkghdfg9809g8fghfjkghjkdfhgjhdfjg, cityIds must have valid data in list<br/>
+<a href="#Output-2090142523" onClick='toggleBox("Output-2090142523", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2090142523" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2090142523">
+Negative case<br/>
+, API Response is correct [message : cityIds must have valid data in list]<br/>
+<br> API Response time : 28 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCities.verifyGetMultipleCitiesApi()'><b>verifyGetMultipleCitiesApi</b><br>Test class: location.info.GetMultipleCities<br>Parameters: 121,abc,123, cityIds must have valid data in list<br/>
+<a href="#Output-1717967062" onClick='toggleBox("Output-1717967062", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1717967062" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1717967062">
+Negative case<br/>
+, API Response is correct [message : cityIds must have valid data in list]<br/>
+<br> API Response time : 21 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCities@343f4d3d</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 1234567890123456789012345678901234567890, cityIds must have valid data in list<br/>
+<a href="#Output-2071522666" onClick='toggleBox("Output-2071522666", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2071522666" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2071522666">
+Negative case<br/>
+, API Response is correct [message : cityIds must have valid data in list]<br/>
+<br> API Response time : 42 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 9999999999, cityIds must have valid data in list<br/>
+<a href="#Output-13928051" onClick='toggleBox("Output-13928051", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-13928051" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-13928051">
+Negative case<br/>
+, API Response is correct [message : cityIds must have valid data in list]<br/>
+<br> API Response time : 32 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 999999999,9999999009, cityIds must have valid data in list<br/>
+<a href="#Output-5248993" onClick='toggleBox("Output-5248993", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-5248993" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-5248993">
+Negative case<br/>
+, API Response is correct [message : cityIds must have valid data in list]<br/>
+<br> API Response time : 32 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 00000000036,-1,00000000037, NA<br/>
+<a href="#Output-1419166053" onClick='toggleBox("Output-1419166053", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1419166053" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1419166053">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Ambala] of cityId : 36<br/>
+, No data returned for cityId : -1 [Correct]<br/>
+, Correct name [Amritsar] of cityId : 37<br/>
+<br> API Response time : 54 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 00000062113, NA<br/>
+<a href="#Output-475816303" onClick='toggleBox("Output-475816303", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-475816303" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-475816303">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, No data returned for cityId : 62113 [Correct]<br/>
+<br> API Response time : 59 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 999999999,114,-1, NA<br/>
+<a href="#Output-1881949035" onClick='toggleBox("Output-1881949035", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1881949035" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1881949035">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, No data returned for cityId : 999999999 [Correct]<br/>
+, Correct name [Jammu & Kashmir - Other] of cityId : 114<br/>
+, No data returned for cityId : -1 [Correct]<br/>
+<br> API Response time : 24 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 1989, NA<br/>
+<a href="#Output-1063423209" onClick='toggleBox("Output-1063423209", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1063423209" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1063423209">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Leh] of cityId : 1989<br/>
+<br> API Response time : 24 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 10516, NA<br/>
+<a href="#Output-2018664185" onClick='toggleBox("Output-2018664185", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2018664185" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2018664185">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Dadra And Nagar Haveli - Other] of cityId : 10516<br/>
+<br> API Response time : 25 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: ignoreHeader, NA</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: ignoreInput, Required List parameter 'cityIds' is not present<br/>
+<a href="#Output-1901945192" onClick='toggleBox("Output-1901945192", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1901945192" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1901945192">
+Negative case<br/>
+, API Response is correct [message : Required List parameter 'cityIds' is not present]<br/>
+<br> API Response time : 16 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: , Integer list must not be empty or null values<br/>
+<a href="#Output-973174587" onClick='toggleBox("Output-973174587", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-973174587" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-973174587">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 19 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters:                       , Integer list must not be empty or null values<br/>
+<a href="#Output-1489997716" onClick='toggleBox("Output-1489997716", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1489997716" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1489997716">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 16 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 121,,123, Integer list must not be empty or null values<br/>
+<a href="#Output-1202168065" onClick='toggleBox("Output-1202168065", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1202168065" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1202168065">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 19 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: ~!@#$%^&*()_+, cityIds must have valid data in list<br/>
+<a href="#Output-573242471" onClick='toggleBox("Output-573242471", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-573242471" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-573242471">
+Negative case<br/>
+, API Response is correct [message : cityIds must have valid data in list]<br/>
+<br> API Response time : 22 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: `1234567890-=, cityIds must have valid data in list<br/>
+<a href="#Output-1083086553" onClick='toggleBox("Output-1083086553", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1083086553" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1083086553">
+Negative case<br/>
+, API Response is correct [message : cityIds must have valid data in list]<br/>
+<br> API Response time : 18 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: {}[]:';'<>,., cityIds must have valid data in list<br/>
+<a href="#Output-1041611526" onClick='toggleBox("Output-1041611526", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1041611526" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1041611526">
+Negative case<br/>
+, API Response is correct [message : cityIds must have valid data in list]<br/>
+<br> API Response time : 14 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 33, NA<br/>
+<a href="#Output-884111637" onClick='toggleBox("Output-884111637", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-884111637" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-884111637">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Ajmer] of cityId : 33<br/>
+<br> API Response time : 21 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 33,10507, NA<br/>
+<a href="#Output-1507293264" onClick='toggleBox("Output-1507293264", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1507293264" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1507293264">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Ajmer] of cityId : 33<br/>
+, Correct name [Sriganaganagar] of cityId : 10507<br/>
+<br> API Response time : 26 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 80,81, NA<br/>
+<a href="#Output-538132628" onClick='toggleBox("Output-538132628", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-538132628" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-538132628">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Durgapur] of cityId : 80<br/>
+, No data returned for cityId : 81 [Correct]<br/>
+<br> API Response time : 36 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 11181, NA<br/>
+<a href="#Output-1410514922" onClick='toggleBox("Output-1410514922", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1410514922" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1410514922">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Bournemouth] of cityId : 11181<br/>
+<br> API Response time : 23 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 11326,11381, NA<br/>
+<a href="#Output-43368234" onClick='toggleBox("Output-43368234", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-43368234" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-43368234">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [University Heights] of cityId : 11326<br/>
+, Correct name [Donetsk] of cityId : 11381<br/>
+<br> API Response time : 28 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 11815,11910,815, NA<br/>
+<a href="#Output-501991708" onClick='toggleBox("Output-501991708", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-501991708" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-501991708">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Tacoma] of cityId : 11815<br/>
+, Correct name [Gambier] of cityId : 11910<br/>
+, Correct name [Hassan] of cityId : 815<br/>
+<br> API Response time : 37 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 40,42,44, NA<br/>
+<a href="#Output-1929447269" onClick='toggleBox("Output-1929447269", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1929447269" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1929447269">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Andhra Pradesh - Other] of cityId : 40<br/>
+, Correct name [Arunachal Pradesh - Other] of cityId : 42<br/>
+, Correct name [Assam - Other] of cityId : 44<br/>
+<br> API Response time : 36 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 11151,12307,11134,12333, NA<br/>
+<a href="#Output-39661414" onClick='toggleBox("Output-39661414", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-39661414" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-39661414">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [St. John's] of cityId : 11151<br/>
+, Correct name ['s-Hertogenbosch] of cityId : 12307<br/>
+, Correct name [Sault Ste. Marie] of cityId : 11134<br/>
+, Correct name [Cz?stochowa] of cityId : 12333<br/>
+<br> API Response time : 26 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 72,114,10224,10684, NA<br/>
+<a href="#Output-830381116" onClick='toggleBox("Output-830381116", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-830381116" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-830381116">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Daman & Diu] of cityId : 72<br/>
+, Correct name [Jammu & Kashmir - Other] of cityId : 114<br/>
+, Correct name [Mumbai (All)] of cityId : 10224<br/>
+, Correct name [Bilaspur(CG)] of cityId : 10684<br/>
+<br> API Response time : 23 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 67856483i5hgffdgo7fd89g7df89hbfjkghjkdfhgjkhdfjkghdfg9809g8fghfjkghjkdfhgjhdfjg, cityIds must have valid data in list<br/>
+<a href="#Output-1257703748" onClick='toggleBox("Output-1257703748", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1257703748" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1257703748">
+Negative case<br/>
+, API Response is correct [message : cityIds must have valid data in list]<br/>
+<br> API Response time : 21 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleCitiesName.verifyGetMultipleCitiesNameApi()'><b>verifyGetMultipleCitiesNameApi</b><br>Test class: location.info.GetMultipleCitiesName<br>Parameters: 121,abc,123, cityIds must have valid data in list<br/>
+<a href="#Output-646204091" onClick='toggleBox("Output-646204091", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-646204091" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-646204091">
+Negative case<br/>
+, API Response is correct [message : cityIds must have valid data in list]<br/>
+<br> API Response time : 22 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleCitiesName@1794d431</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: 00000000036,-1,00000000037, NA<br/>
+<a href="#Output-672869885" onClick='toggleBox("Output-672869885", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-672869885" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-672869885">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct value of localityId [36] for localityId : 36<br/>
+, Correct name [Asarwa] of localityId : 36<br/>
+, Correct value of zoneId [6] for localityId : 36<br/>
+, Correct value of cityId [30] for localityId : 36<br/>
+, Correct value of stateId [109] for localityId : 36<br/>
+, Correct value of countryId [2] for localityId : 36<br/>
+, No data returned for localityId : -1 [Correct]<br/>
+, Correct value of localityId [37] for localityId : 37<br/>
+, Correct name [Bapunagar] of localityId : 37<br/>
+, Correct value of zoneId [6] for localityId : 37<br/>
+, Correct value of cityId [30] for localityId : 37<br/>
+, Correct value of stateId [109] for localityId : 37<br/>
+, Correct value of countryId [2] for localityId : 37<br/>
+<br> API Response time : 30 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: 00000062113, NA<br/>
+<a href="#Output-1843674049" onClick='toggleBox("Output-1843674049", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1843674049" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1843674049">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, No data returned for localityId : 62113 [Correct]<br/>
+<br> API Response time : 25 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: 999999999,1147,-1, NA<br/>
+<a href="#Output-1734023423" onClick='toggleBox("Output-1734023423", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1734023423" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1734023423">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, No data returned for localityId : 999999999 [Correct]<br/>
+, Correct value of localityId [1147] for localityId : 1147<br/>
+, Correct name [Sompura Industrial Area] of localityId : 1147<br/>
+, Correct value of zoneId [87] for localityId : 1147<br/>
+, Correct value of cityId [278] for localityId : 1147<br/>
+, Correct value of stateId [106] for localityId : 1147<br/>
+, Correct value of countryId [2] for localityId : 1147<br/>
+, No data returned for localityId : -1 [Correct]<br/>
+<br> API Response time : 29 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: 1039, NA<br/>
+<a href="#Output-2021230836" onClick='toggleBox("Output-2021230836", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2021230836" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2021230836">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, No data returned for localityId : 1039 [Correct]<br/>
+<br> API Response time : 25 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: ignoreInput, Required List parameter 'localityIds' is not present<br/>
+<a href="#Output-1518022811" onClick='toggleBox("Output-1518022811", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1518022811" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1518022811">
+Negative case<br/>
+, API Response is correct [message : Required List parameter 'localityIds' is not present]<br/>
+<br> API Response time : 15 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: , Integer list must not be empty or null values<br/>
+<a href="#Output-1562107210" onClick='toggleBox("Output-1562107210", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1562107210" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1562107210">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 24 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters:                       , Integer list must not be empty or null values<br/>
+<a href="#Output-1572516402" onClick='toggleBox("Output-1572516402", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1572516402" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1572516402">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 13 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: 121,,123, Integer list must not be empty or null values<br/>
+<a href="#Output-701526215" onClick='toggleBox("Output-701526215", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-701526215" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-701526215">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 13 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: ~!@#$%^&*()_+, localityIds must have valid data in list<br/>
+<a href="#Output-850083982" onClick='toggleBox("Output-850083982", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-850083982" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-850083982">
+Negative case<br/>
+, API Response is correct [message : localityIds must have valid data in list]<br/>
+<br> API Response time : 14 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: `1234567890-=, localityIds must have valid data in list<br/>
+<a href="#Output-1957175487" onClick='toggleBox("Output-1957175487", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1957175487" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1957175487">
+Negative case<br/>
+, API Response is correct [message : localityIds must have valid data in list]<br/>
+<br> API Response time : 16 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: {}[]:';'<>,., localityIds must have valid data in list<br/>
+<a href="#Output-213850519" onClick='toggleBox("Output-213850519", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-213850519" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-213850519">
+Negative case<br/>
+, API Response is correct [message : localityIds must have valid data in list]<br/>
+<br> API Response time : 12 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: 67856483i5hgffdgo7fd89g7df89hbfjkghjkdfhgjkhdfjkghdfg9809g8fghfjkghjkdfhgjhdfjg, localityIds must have valid data in list<br/>
+<a href="#Output-2000793115" onClick='toggleBox("Output-2000793115", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2000793115" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2000793115">
+Negative case<br/>
+, API Response is correct [message : localityIds must have valid data in list]<br/>
+<br> API Response time : 11 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: 121,abc,123, localityIds must have valid data in list<br/>
+<a href="#Output-962931248" onClick='toggleBox("Output-962931248", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-962931248" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-962931248">
+Negative case<br/>
+, API Response is correct [message : localityIds must have valid data in list]<br/>
+<br> API Response time : 15 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: 1234567890123456789012345678901234567890, localityIds must have valid data in list<br/>
+<a href="#Output-556223230" onClick='toggleBox("Output-556223230", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-556223230" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-556223230">
+Negative case<br/>
+, API Response is correct [message : localityIds must have valid data in list]<br/>
+<br> API Response time : 11 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: 33, NA<br/>
+<a href="#Output-626889335" onClick='toggleBox("Output-626889335", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-626889335" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-626889335">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct value of localityId [33] for localityId : 33<br/>
+, Correct name [Acher] of localityId : 33<br/>
+, Correct value of zoneId [6] for localityId : 33<br/>
+, Correct value of cityId [30] for localityId : 33<br/>
+, Correct value of stateId [109] for localityId : 33<br/>
+, Correct value of countryId [2] for localityId : 33<br/>
+<br> API Response time : 26 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: 33,18, NA<br/>
+<a href="#Output-789178034" onClick='toggleBox("Output-789178034", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-789178034" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-789178034">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct value of localityId [33] for localityId : 33<br/>
+, Correct name [Acher] of localityId : 33<br/>
+, Correct value of zoneId [6] for localityId : 33<br/>
+, Correct value of cityId [30] for localityId : 33<br/>
+, Correct value of stateId [109] for localityId : 33<br/>
+, Correct value of countryId [2] for localityId : 33<br/>
+, Correct value of localityId [18] for localityId : 18<br/>
+, Correct name [Isanpur] of localityId : 18<br/>
+, Correct value of zoneId [4] for localityId : 18<br/>
+, Correct value of cityId [30] for localityId : 18<br/>
+, Correct value of stateId [109] for localityId : 18<br/>
+, Correct value of countryId [2] for localityId : 18<br/>
+<br> API Response time : 26 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: 80,1390, NA<br/>
+<a href="#Output-1281580764" onClick='toggleBox("Output-1281580764", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1281580764" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1281580764">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct value of localityId [80] for localityId : 80<br/>
+, Correct name [Satellite] of localityId : 80<br/>
+, Correct value of zoneId [11] for localityId : 80<br/>
+, Correct value of cityId [30] for localityId : 80<br/>
+, Correct value of stateId [109] for localityId : 80<br/>
+, Correct value of countryId [2] for localityId : 80<br/>
+, No data returned for localityId : 1390 [Correct]<br/>
+<br> API Response time : 41 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: 1365,1347,1273, NA<br/>
+<a href="#Output-1260955583" onClick='toggleBox("Output-1260955583", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1260955583" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1260955583">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct value of localityId [1365] for localityId : 1365<br/>
+, Correct name [Chikkarayapuram] of localityId : 1365<br/>
+, Correct value of zoneId [42] for localityId : 1365<br/>
+, Correct value of cityId [64] for localityId : 1365<br/>
+, Correct value of stateId [123] for localityId : 1365<br/>
+, Correct value of countryId [2] for localityId : 1365<br/>
+, Correct value of localityId [1347] for localityId : 1347<br/>
+, Correct name [Tukaram Paduka Chowk] of localityId : 1347<br/>
+, Correct value of zoneId [45] for localityId : 1347<br/>
+, Correct value of cityId [174] for localityId : 1347<br/>
+, Correct value of stateId [114] for localityId : 1347<br/>
+, Correct value of countryId [2] for localityId : 1347<br/>
+, Correct value of localityId [1273] for localityId : 1273<br/>
+, Correct name [Shindewadi] of localityId : 1273<br/>
+, Correct value of zoneId [61] for localityId : 1273<br/>
+, Correct value of cityId [174] for localityId : 1273<br/>
+, Correct value of stateId [114] for localityId : 1273<br/>
+, Correct value of countryId [2] for localityId : 1273<br/>
+<br> API Response time : 15 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: 103,1176,1351,9,48, NA<br/>
+<a href="#Output-1397088232" onClick='toggleBox("Output-1397088232", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1397088232" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1397088232">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct value of localityId [103] for localityId : 103<br/>
+, Correct name [Cunningham Road, City] of localityId : 103<br/>
+, Correct value of zoneId [13] for localityId : 103<br/>
+, Correct value of cityId [278] for localityId : 103<br/>
+, Correct value of stateId [106] for localityId : 103<br/>
+, Correct value of countryId [2] for localityId : 103<br/>
+, Correct value of localityId [1176] for localityId : 1176<br/>
+, Correct name [Kabutar Khana, Dadar(W)] of localityId : 1176<br/>
+, Correct value of zoneId [21] for localityId : 1176<br/>
+, Correct value of cityId [151] for localityId : 1176<br/>
+, Correct value of stateId [114] for localityId : 1176<br/>
+, Correct value of countryId [2] for localityId : 1176<br/>
+, Correct value of localityId [1351] for localityId : 1351<br/>
+, Correct name [Library Avenue, Pusa] of localityId : 1351<br/>
+, Correct value of zoneId [71] for localityId : 1351<br/>
+, Correct value of cityId [74] for localityId : 1351<br/>
+, Correct value of stateId [128] for localityId : 1351<br/>
+, Correct value of countryId [2] for localityId : 1351<br/>
+, Correct value of localityId [9] for localityId : 9<br/>
+, Correct name [C.G Road] of localityId : 9<br/>
+, Correct value of zoneId [2] for localityId : 9<br/>
+, Correct value of cityId [30] for localityId : 9<br/>
+, Correct value of stateId [109] for localityId : 9<br/>
+, Correct value of countryId [2] for localityId : 9<br/>
+, Correct value of localityId [48] for localityId : 48<br/>
+, Correct name [Vatva (G.I.D.C)] of localityId : 48<br/>
+, Correct value of zoneId [6] for localityId : 48<br/>
+, Correct value of cityId [30] for localityId : 48<br/>
+, Correct value of stateId [109] for localityId : 48<br/>
+, Correct value of countryId [2] for localityId : 48<br/>
+<br> API Response time : 13 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: 1193,1228, NA<br/>
+<a href="#Output-6633388" onClick='toggleBox("Output-6633388", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-6633388" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-6633388">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct value of localityId [1193] for localityId : 1193<br/>
+, Correct name [Khar (West)] of localityId : 1193<br/>
+, Correct value of zoneId [27] for localityId : 1193<br/>
+, Correct value of cityId [151] for localityId : 1193<br/>
+, Correct value of stateId [114] for localityId : 1193<br/>
+, Correct value of countryId [2] for localityId : 1193<br/>
+, Correct value of localityId [1228] for localityId : 1228<br/>
+, Correct name [Bowrampet (V)] of localityId : 1228<br/>
+, Correct value of zoneId [62] for localityId : 1228<br/>
+, Correct value of cityId [702] for localityId : 1228<br/>
+, Correct value of stateId [413] for localityId : 1228<br/>
+, Correct value of countryId [2] for localityId : 1228<br/>
+<br> API Response time : 17 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: 990, NA<br/>
+<a href="#Output-1275339119" onClick='toggleBox("Output-1275339119", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1275339119" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1275339119">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct value of localityId [990] for localityId : 990<br/>
+, Correct name [CST] of localityId : 990<br/>
+, Correct value of zoneId [26] for localityId : 990<br/>
+, Correct value of cityId [151] for localityId : 990<br/>
+, Correct value of stateId [114] for localityId : 990<br/>
+, Correct value of countryId [2] for localityId : 990<br/>
+<br> API Response time : 18 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: 1300, NA<br/>
+<a href="#Output-1438977874" onClick='toggleBox("Output-1438977874", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1438977874" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1438977874">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct value of localityId [1300] for localityId : 1300<br/>
+, Correct name [Dr. Syamaprasad Mukherjee Road] of localityId : 1300<br/>
+, Correct value of zoneId [37] for localityId : 1300<br/>
+, Correct value of cityId [130] for localityId : 1300<br/>
+, Correct value of stateId [127] for localityId : 1300<br/>
+, Correct value of countryId [2] for localityId : 1300<br/>
+<br> API Response time : 27 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: ignoreHeader, NA</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: 9999999999, localityIds must have valid data in list<br/>
+<a href="#Output-1562019228" onClick='toggleBox("Output-1562019228", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1562019228" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1562019228">
+Negative case<br/>
+, API Response is correct [message : localityIds must have valid data in list]<br/>
+<br> API Response time : 14 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalities.verifyGetMultipleLocalitiesApi()'><b>verifyGetMultipleLocalitiesApi</b><br>Test class: location.info.GetMultipleLocalities<br>Parameters: 999999999,9999999009, localityIds must have valid data in list<br/>
+<a href="#Output-42496654" onClick='toggleBox("Output-42496654", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-42496654" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-42496654">
+Negative case<br/>
+, API Response is correct [message : localityIds must have valid data in list]<br/>
+<br> API Response time : 26 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalities@57baeedf</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: 00000000036,-1,00000000037, NA<br/>
+<a href="#Output-550424075" onClick='toggleBox("Output-550424075", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-550424075" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-550424075">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Asarwa] of localityId : 36<br/>
+, No data returned for localityId : -1 [Correct]<br/>
+, Correct name [Bapunagar] of localityId : 37<br/>
+<br> API Response time : 27 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: 00000062113, NA<br/>
+<a href="#Output-886386381" onClick='toggleBox("Output-886386381", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-886386381" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-886386381">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, No data returned for localityId : 62113 [Correct]<br/>
+<br> API Response time : 25 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: 999999999,1147,-1, NA<br/>
+<a href="#Output-1985363238" onClick='toggleBox("Output-1985363238", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1985363238" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1985363238">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, No data returned for localityId : 999999999 [Correct]<br/>
+, Correct name [Sompura Industrial Area] of localityId : 1147<br/>
+, No data returned for localityId : -1 [Correct]<br/>
+<br> API Response time : 30 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: 1039, NA<br/>
+<a href="#Output-626961003" onClick='toggleBox("Output-626961003", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-626961003" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-626961003">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, No data returned for localityId : 1039 [Correct]<br/>
+<br> API Response time : 27 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: ignoreInput, Required List parameter 'localityIds' is not present<br/>
+<a href="#Output-1441014857" onClick='toggleBox("Output-1441014857", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1441014857" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1441014857">
+Negative case<br/>
+, API Response is correct [message : Required List parameter 'localityIds' is not present]<br/>
+<br> API Response time : 18 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: , Integer list must not be empty or null values<br/>
+<a href="#Output-2042120257" onClick='toggleBox("Output-2042120257", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2042120257" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2042120257">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 26 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters:                       , Integer list must not be empty or null values<br/>
+<a href="#Output-2075074394" onClick='toggleBox("Output-2075074394", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2075074394" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2075074394">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 21 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: 121,,123, Integer list must not be empty or null values<br/>
+<a href="#Output-303805531" onClick='toggleBox("Output-303805531", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-303805531" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-303805531">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 32 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: ~!@#$%^&*()_+, localityIds must have valid data in list<br/>
+<a href="#Output-294649085" onClick='toggleBox("Output-294649085", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-294649085" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-294649085">
+Negative case<br/>
+, API Response is correct [message : localityIds must have valid data in list]<br/>
+<br> API Response time : 27 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: `1234567890-=, localityIds must have valid data in list<br/>
+<a href="#Output-159190022" onClick='toggleBox("Output-159190022", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-159190022" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-159190022">
+Negative case<br/>
+, API Response is correct [message : localityIds must have valid data in list]<br/>
+<br> API Response time : 17 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: {}[]:';'<>,., localityIds must have valid data in list<br/>
+<a href="#Output-1131710157" onClick='toggleBox("Output-1131710157", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1131710157" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1131710157">
+Negative case<br/>
+, API Response is correct [message : localityIds must have valid data in list]<br/>
+<br> API Response time : 45 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: 67856483i5hgffdgo7fd89g7df89hbfjkghjkdfhgjkhdfjkghdfg9809g8fghfjkghjkdfhgjhdfjg, localityIds must have valid data in list<br/>
+<a href="#Output-859604881" onClick='toggleBox("Output-859604881", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-859604881" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-859604881">
+Negative case<br/>
+, API Response is correct [message : localityIds must have valid data in list]<br/>
+<br> API Response time : 19 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: 121,abc,123, localityIds must have valid data in list<br/>
+<a href="#Output-839180856" onClick='toggleBox("Output-839180856", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-839180856" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-839180856">
+Negative case<br/>
+, API Response is correct [message : localityIds must have valid data in list]<br/>
+<br> API Response time : 27 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: 1234567890123456789012345678901234567890, localityIds must have valid data in list<br/>
+<a href="#Output-1598561139" onClick='toggleBox("Output-1598561139", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1598561139" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1598561139">
+Negative case<br/>
+, API Response is correct [message : localityIds must have valid data in list]<br/>
+<br> API Response time : 39 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: 33, NA<br/>
+<a href="#Output-315998990" onClick='toggleBox("Output-315998990", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-315998990" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-315998990">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Acher] of localityId : 33<br/>
+<br> API Response time : 47 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: 33,18, NA<br/>
+<a href="#Output-2063355321" onClick='toggleBox("Output-2063355321", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2063355321" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2063355321">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Acher] of localityId : 33<br/>
+, Correct name [Isanpur] of localityId : 18<br/>
+<br> API Response time : 25 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: 80,1390, NA<br/>
+<a href="#Output-1692092775" onClick='toggleBox("Output-1692092775", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1692092775" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1692092775">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Satellite] of localityId : 80<br/>
+, No data returned for localityId : 1390 [Correct]<br/>
+<br> API Response time : 22 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: 1365,1347,1273, NA<br/>
+<a href="#Output-365211514" onClick='toggleBox("Output-365211514", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-365211514" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-365211514">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Chikkarayapuram] of localityId : 1365<br/>
+, Correct name [Tukaram Paduka Chowk] of localityId : 1347<br/>
+, Correct name [Shindewadi] of localityId : 1273<br/>
+<br> API Response time : 15 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: 103,1176,1351,9,48, NA<br/>
+<a href="#Output-553701447" onClick='toggleBox("Output-553701447", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-553701447" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-553701447">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Cunningham Road, City] of localityId : 103<br/>
+, Correct name [Kabutar Khana, Dadar(W)] of localityId : 1176<br/>
+, Correct name [Library Avenue, Pusa] of localityId : 1351<br/>
+, Correct name [C.G Road] of localityId : 9<br/>
+, Correct name [Vatva (G.I.D.C)] of localityId : 48<br/>
+<br> API Response time : 22 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: 1193,1228, NA<br/>
+<a href="#Output-1130656047" onClick='toggleBox("Output-1130656047", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1130656047" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1130656047">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Khar (West)] of localityId : 1193<br/>
+, Correct name [Bowrampet (V)] of localityId : 1228<br/>
+<br> API Response time : 18 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: 990, NA<br/>
+<a href="#Output-1141783782" onClick='toggleBox("Output-1141783782", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1141783782" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1141783782">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [CST] of localityId : 990<br/>
+<br> API Response time : 21 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: 1300, NA<br/>
+<a href="#Output-173070089" onClick='toggleBox("Output-173070089", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-173070089" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-173070089">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Dr. Syamaprasad Mukherjee Road] of localityId : 1300<br/>
+<br> API Response time : 14 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: ignoreHeader, NA</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: 9999999999, localityIds must have valid data in list<br/>
+<a href="#Output-551056181" onClick='toggleBox("Output-551056181", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-551056181" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-551056181">
+Negative case<br/>
+, API Response is correct [message : localityIds must have valid data in list]<br/>
+<br> API Response time : 21 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleLocalitiesName.verifyGetMultipleLocalitiesNameApi()'><b>verifyGetMultipleLocalitiesNameApi</b><br>Test class: location.info.GetMultipleLocalitiesName<br>Parameters: 999999999,9999999009, localityIds must have valid data in list<br/>
+<a href="#Output-257650296" onClick='toggleBox("Output-257650296", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-257650296" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-257650296">
+Negative case<br/>
+, API Response is correct [message : localityIds must have valid data in list]<br/>
+<br> API Response time : 23 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleLocalitiesName@3bfdc050</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 1234567890123456789012345678901234567890, stateIds must have valid data in list<br/>
+<a href="#Output-1785687166" onClick='toggleBox("Output-1785687166", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1785687166" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1785687166">
+Negative case<br/>
+, API Response is correct [message : stateIds must have valid data in list]<br/>
+<br> API Response time : 15 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 9999999999, stateIds must have valid data in list<br/>
+<a href="#Output-2134357721" onClick='toggleBox("Output-2134357721", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2134357721" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2134357721">
+Negative case<br/>
+, API Response is correct [message : stateIds must have valid data in list]<br/>
+<br> API Response time : 23 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 999999999,9999999009, stateIds must have valid data in list<br/>
+<a href="#Output-1870054092" onClick='toggleBox("Output-1870054092", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1870054092" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1870054092">
+Negative case<br/>
+, API Response is correct [message : stateIds must have valid data in list]<br/>
+<br> API Response time : 20 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 00000000036,-1,00000000037, NA<br/>
+<a href="#Output-111702054" onClick='toggleBox("Output-111702054", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-111702054" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-111702054">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, No data returned for stateId : 36 [Correct]<br/>
+, No data returned for stateId : -1 [Correct]<br/>
+, No data returned for stateId : 37 [Correct]<br/>
+<br> API Response time : 19 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 00000062113, NA<br/>
+<a href="#Output-1058553002" onClick='toggleBox("Output-1058553002", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1058553002" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1058553002">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, No data returned for stateId : 62113 [Correct]<br/>
+<br> API Response time : 31 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 999999999,121,-1, NA<br/>
+<a href="#Output-437098149" onClick='toggleBox("Output-437098149", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-437098149" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-437098149">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, No data returned for stateId : 999999999 [Correct]<br/>
+, Correct stateId [121] of stateId : 121<br/>
+, Correct name [Rajasthan] of stateId : 121<br/>
+, Correct value of enabled [0] for stateId : 121<br/>
+, Correct value of countryId [2] for stateId : 121<br/>
+, Correct value of tier [3] for stateId : 121<br/>
+, No data returned for stateId : -1 [Correct]<br/>
+<br> API Response time : 20 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 132, NA<br/>
+<a href="#Output-909278444" onClick='toggleBox("Output-909278444", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-909278444" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-909278444">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct stateId [132] of stateId : 132<br/>
+, Correct name [Chhatisgarh] of stateId : 132<br/>
+, Correct value of enabled [1] for stateId : 132<br/>
+, Correct value of countryId [2] for stateId : 132<br/>
+, Correct value of tier [3] for stateId : 132<br/>
+<br> API Response time : 11 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 108, NA<br/>
+<a href="#Output-1679160862" onClick='toggleBox("Output-1679160862", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1679160862" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1679160862">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct stateId [108] of stateId : 108<br/>
+, Correct name [Goa] of stateId : 108<br/>
+, Correct value of enabled [0] for stateId : 108<br/>
+, Correct value of countryId [2] for stateId : 108<br/>
+, Correct value of tier [3] for stateId : 108<br/>
+<br> API Response time : 18 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 291, NA<br/>
+<a href="#Output-1250848393" onClick='toggleBox("Output-1250848393", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1250848393" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1250848393">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct stateId [291] of stateId : 291<br/>
+, Correct name [Taiwan Province, People's Republic of China] of stateId : 291<br/>
+, Correct value of enabled [0] for stateId : 291<br/>
+, Correct value of countryId [36] for stateId : 291<br/>
+, Correct value of tier [2] for stateId : 291<br/>
+<br> API Response time : 18 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: ignoreHeader, NA</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: ignoreInput, Required List parameter 'stateIds' is not present<br/>
+<a href="#Output-47925969" onClick='toggleBox("Output-47925969", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-47925969" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-47925969">
+Negative case<br/>
+, API Response is correct [message : Required List parameter 'stateIds' is not present]<br/>
+<br> API Response time : 19 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: , Integer list must not be empty or null values<br/>
+<a href="#Output-147623131" onClick='toggleBox("Output-147623131", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-147623131" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-147623131">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 15 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters:                       , Integer list must not be empty or null values<br/>
+<a href="#Output-121113063" onClick='toggleBox("Output-121113063", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-121113063" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-121113063">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 13 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 121,,123, Integer list must not be empty or null values<br/>
+<a href="#Output-2099541600" onClick='toggleBox("Output-2099541600", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2099541600" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2099541600">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 21 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: ~!@#$%^&*()_+, stateIds must have valid data in list<br/>
+<a href="#Output-554510956" onClick='toggleBox("Output-554510956", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-554510956" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-554510956">
+Negative case<br/>
+, API Response is correct [message : stateIds must have valid data in list]<br/>
+<br> API Response time : 31 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: `1234567890-=, stateIds must have valid data in list<br/>
+<a href="#Output-403930795" onClick='toggleBox("Output-403930795", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-403930795" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-403930795">
+Negative case<br/>
+, API Response is correct [message : stateIds must have valid data in list]<br/>
+<br> API Response time : 3016 MS<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: {}[]:';'<>,., stateIds must have valid data in list<br/>
+<a href="#Output-390138887" onClick='toggleBox("Output-390138887", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-390138887" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-390138887">
+Negative case<br/>
+, API Response is correct [message : stateIds must have valid data in list]<br/>
+<br> API Response time : 20 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 121, NA<br/>
+<a href="#Output-873295241" onClick='toggleBox("Output-873295241", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-873295241" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-873295241">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct stateId [121] of stateId : 121<br/>
+, Correct name [Rajasthan] of stateId : 121<br/>
+, Correct value of enabled [0] for stateId : 121<br/>
+, Correct value of countryId [2] for stateId : 121<br/>
+, Correct value of tier [3] for stateId : 121<br/>
+<br> API Response time : 17 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 121,123, NA<br/>
+<a href="#Output-1476915117" onClick='toggleBox("Output-1476915117", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1476915117" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1476915117">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct stateId [121] of stateId : 121<br/>
+, Correct name [Rajasthan] of stateId : 121<br/>
+, Correct value of enabled [0] for stateId : 121<br/>
+, Correct value of countryId [2] for stateId : 121<br/>
+, Correct value of tier [3] for stateId : 121<br/>
+, Correct stateId [123] of stateId : 123<br/>
+, Correct name [Tamil Nadu] of stateId : 123<br/>
+, Correct value of enabled [0] for stateId : 123<br/>
+, Correct value of countryId [2] for stateId : 123<br/>
+, Correct value of tier [2] for stateId : 123<br/>
+<br> API Response time : 30 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 123,12, NA<br/>
+<a href="#Output-1955566523" onClick='toggleBox("Output-1955566523", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1955566523" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1955566523">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct stateId [123] of stateId : 123<br/>
+, Correct name [Tamil Nadu] of stateId : 123<br/>
+, Correct value of enabled [0] for stateId : 123<br/>
+, Correct value of countryId [2] for stateId : 123<br/>
+, Correct value of tier [2] for stateId : 123<br/>
+, No data returned for stateId : 12 [Correct]<br/>
+<br> API Response time : 55 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 272, NA<br/>
+<a href="#Output-982565180" onClick='toggleBox("Output-982565180", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-982565180" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-982565180">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct stateId [272] of stateId : 272<br/>
+, Correct name [Barisal] of stateId : 272<br/>
+, Correct value of enabled [0] for stateId : 272<br/>
+, Correct value of countryId [51] for stateId : 272<br/>
+, Correct value of tier [2] for stateId : 272<br/>
+<br> API Response time : 32 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 272,263, NA<br/>
+<a href="#Output-858846125" onClick='toggleBox("Output-858846125", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-858846125" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-858846125">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct stateId [272] of stateId : 272<br/>
+, Correct name [Barisal] of stateId : 272<br/>
+, Correct value of enabled [0] for stateId : 272<br/>
+, Correct value of countryId [51] for stateId : 272<br/>
+, Correct value of tier [2] for stateId : 272<br/>
+, Correct stateId [263] of stateId : 263<br/>
+, Correct name [Burgenland] of stateId : 263<br/>
+, Correct value of enabled [0] for stateId : 263<br/>
+, Correct value of countryId [47] for stateId : 263<br/>
+, Correct value of tier [2] for stateId : 263<br/>
+<br> API Response time : 20 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 272,263,121, NA<br/>
+<a href="#Output-1255024717" onClick='toggleBox("Output-1255024717", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1255024717" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1255024717">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct stateId [272] of stateId : 272<br/>
+, Correct name [Barisal] of stateId : 272<br/>
+, Correct value of enabled [0] for stateId : 272<br/>
+, Correct value of countryId [51] for stateId : 272<br/>
+, Correct value of tier [2] for stateId : 272<br/>
+, Correct stateId [263] of stateId : 263<br/>
+, Correct name [Burgenland] of stateId : 263<br/>
+, Correct value of enabled [0] for stateId : 263<br/>
+, Correct value of countryId [47] for stateId : 263<br/>
+, Correct value of tier [2] for stateId : 263<br/>
+, Correct stateId [121] of stateId : 121<br/>
+, Correct name [Rajasthan] of stateId : 121<br/>
+, Correct value of enabled [0] for stateId : 121<br/>
+, Correct value of countryId [2] for stateId : 121<br/>
+, Correct value of tier [3] for stateId : 121<br/>
+<br> API Response time : 33 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 246, NA<br/>
+<a href="#Output-1955251955" onClick='toggleBox("Output-1955251955", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1955251955" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1955251955">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct stateId [246] of stateId : 246<br/>
+, Correct name [Inverness-shire] of stateId : 246<br/>
+, Correct value of enabled [0] for stateId : 246<br/>
+, Correct value of countryId [4] for stateId : 246<br/>
+, Correct value of tier [1] for stateId : 246<br/>
+<br> API Response time : 65 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 291, NA<br/>
+<a href="#Output-576902869" onClick='toggleBox("Output-576902869", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-576902869" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-576902869">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct stateId [291] of stateId : 291<br/>
+, Correct name [Taiwan Province, People's Republic of China] of stateId : 291<br/>
+, Correct value of enabled [0] for stateId : 291<br/>
+, Correct value of countryId [36] for stateId : 291<br/>
+, Correct value of tier [2] for stateId : 291<br/>
+<br> API Response time : 41 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 135,355,201, NA<br/>
+<a href="#Output-989171574" onClick='toggleBox("Output-989171574", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-989171574" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-989171574">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct stateId [135] of stateId : 135<br/>
+, Correct name [Daman & Diu] of stateId : 135<br/>
+, Correct value of enabled [0] for stateId : 135<br/>
+, Correct value of countryId [2] for stateId : 135<br/>
+, Correct value of tier [3] for stateId : 135<br/>
+, Correct stateId [355] of stateId : 355<br/>
+, Correct name [Chita (Defunct)] of stateId : 355<br/>
+, Correct value of enabled [0] for stateId : 355<br/>
+, Correct value of countryId [17] for stateId : 355<br/>
+, Correct value of tier [2] for stateId : 355<br/>
+, Correct stateId [201] of stateId : 201<br/>
+, Correct name [Cocos (Keelin) Islands] of stateId : 201<br/>
+, Correct value of enabled [0] for stateId : 201<br/>
+, Correct value of countryId [5] for stateId : 201<br/>
+, Correct value of tier [1] for stateId : 201<br/>
+<br> API Response time : 32 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 67856483i5hgffdgo7fd89g7df89hbfjkghjkdfhgjkhdfjkghdfg9809g8fghfjkghjkdfhgjhdfjg, stateIds must have valid data in list<br/>
+<a href="#Output-2083004088" onClick='toggleBox("Output-2083004088", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2083004088" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2083004088">
+Negative case<br/>
+, API Response is correct [message : stateIds must have valid data in list]<br/>
+<br> API Response time : 10 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStates.verifyGetMultipleStatesApi()'><b>verifyGetMultipleStatesApi</b><br>Test class: location.info.GetMultipleStates<br>Parameters: 121,abc,123, stateIds must have valid data in list<br/>
+<a href="#Output-1994634331" onClick='toggleBox("Output-1994634331", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1994634331" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1994634331">
+Negative case<br/>
+, API Response is correct [message : stateIds must have valid data in list]<br/>
+<br> API Response time : 15 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStates@42e26948</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 1234567890123456789012345678901234567890, stateIds must have valid data in list<br/>
+<a href="#Output-854989361" onClick='toggleBox("Output-854989361", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-854989361" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-854989361">
+Negative case<br/>
+, API Response is correct [message : stateIds must have valid data in list]<br/>
+<br> API Response time : 1056 MS<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 9999999999, stateIds must have valid data in list<br/>
+<a href="#Output-1096343229" onClick='toggleBox("Output-1096343229", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1096343229" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1096343229">
+Negative case<br/>
+, API Response is correct [message : stateIds must have valid data in list]<br/>
+<br> API Response time : 53 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 999999999,9999999009, stateIds must have valid data in list<br/>
+<a href="#Output-1635358020" onClick='toggleBox("Output-1635358020", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1635358020" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1635358020">
+Negative case<br/>
+, API Response is correct [message : stateIds must have valid data in list]<br/>
+<br> API Response time : 44 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 00000000036,-1,00000000037, NA<br/>
+<a href="#Output-2027837674" onClick='toggleBox("Output-2027837674", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2027837674" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2027837674">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, No data returned for stateId : 36 [Correct]<br/>
+, No data returned for stateId : -1 [Correct]<br/>
+, No data returned for stateId : 37 [Correct]<br/>
+<br> API Response time : 302 MS<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 00000062113, NA<br/>
+<a href="#Output-182949133" onClick='toggleBox("Output-182949133", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-182949133" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-182949133">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, No data returned for stateId : 62113 [Correct]<br/>
+<br> API Response time : 50 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 999999999,121,-1, NA<br/>
+<a href="#Output-727018418" onClick='toggleBox("Output-727018418", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-727018418" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-727018418">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, No data returned for stateId : 999999999 [Correct]<br/>
+, Correct name [Rajasthan] of stateId : 121<br/>
+, No data returned for stateId : -1 [Correct]<br/>
+<br> API Response time : 81 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 108, NA<br/>
+<a href="#Output-1558460059" onClick='toggleBox("Output-1558460059", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1558460059" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1558460059">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Goa] of stateId : 108<br/>
+<br> API Response time : 38 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 291, NA<br/>
+<a href="#Output-592088871" onClick='toggleBox("Output-592088871", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-592088871" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-592088871">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Taiwan Province, People's Republic of China] of stateId : 291<br/>
+<br> API Response time : 42 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: ignoreHeader, NA</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: ignoreInput, Required List parameter 'stateIds' is not present<br/>
+<a href="#Output-1727420902" onClick='toggleBox("Output-1727420902", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1727420902" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1727420902">
+Negative case<br/>
+, API Response is correct [message : Required List parameter 'stateIds' is not present]<br/>
+<br> API Response time : 38 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: , Integer list must not be empty or null values<br/>
+<a href="#Output-1161644395" onClick='toggleBox("Output-1161644395", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1161644395" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1161644395">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 127 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters:                       , Integer list must not be empty or null values<br/>
+<a href="#Output-1860754643" onClick='toggleBox("Output-1860754643", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1860754643" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1860754643">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 39 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 121,,123, Integer list must not be empty or null values<br/>
+<a href="#Output-1876259196" onClick='toggleBox("Output-1876259196", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1876259196" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1876259196">
+Negative case<br/>
+, API Response is correct [message : Integer list must not be empty or null values]<br/>
+<br> API Response time : 69 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: ~!@#$%^&*()_+, stateIds must have valid data in list<br/>
+<a href="#Output-46415544" onClick='toggleBox("Output-46415544", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-46415544" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-46415544">
+Negative case<br/>
+, API Response is correct [message : stateIds must have valid data in list]<br/>
+<br> API Response time : 30 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: `1234567890-=, stateIds must have valid data in list<br/>
+<a href="#Output-1818592781" onClick='toggleBox("Output-1818592781", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1818592781" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1818592781">
+Negative case<br/>
+, API Response is correct [message : stateIds must have valid data in list]<br/>
+<br> API Response time : 72 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: {}[]:';'<>,., stateIds must have valid data in list<br/>
+<a href="#Output-1250816994" onClick='toggleBox("Output-1250816994", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1250816994" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1250816994">
+Negative case<br/>
+, API Response is correct [message : stateIds must have valid data in list]<br/>
+<br> API Response time : 56 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 121, NA<br/>
+<a href="#Output-945698516" onClick='toggleBox("Output-945698516", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-945698516" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-945698516">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Rajasthan] of stateId : 121<br/>
+<br> API Response time : 63 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 121,123, NA<br/>
+<a href="#Output-2097614581" onClick='toggleBox("Output-2097614581", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2097614581" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2097614581">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Rajasthan] of stateId : 121<br/>
+, Correct name [Tamil Nadu] of stateId : 123<br/>
+<br> API Response time : 34 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 123,12, NA<br/>
+<a href="#Output-986238875" onClick='toggleBox("Output-986238875", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-986238875" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-986238875">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Tamil Nadu] of stateId : 123<br/>
+, No data returned for stateId : 12 [Correct]<br/>
+<br> API Response time : 36 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 272, NA<br/>
+<a href="#Output-870019773" onClick='toggleBox("Output-870019773", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-870019773" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-870019773">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Barisal] of stateId : 272<br/>
+<br> API Response time : 30 MS<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 272,263, NA<br/>
+<a href="#Output-1434367299" onClick='toggleBox("Output-1434367299", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1434367299" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1434367299">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Barisal] of stateId : 272<br/>
+, Correct name [Burgenland] of stateId : 263<br/>
+<br> API Response time : 28 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 121, NA<br/>
+<a href="#Output-1604020967" onClick='toggleBox("Output-1604020967", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1604020967" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1604020967">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Rajasthan] of stateId : 121<br/>
+<br> API Response time : 39 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 246, NA<br/>
+<a href="#Output-1995986600" onClick='toggleBox("Output-1995986600", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1995986600" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1995986600">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Inverness-shire] of stateId : 246<br/>
+<br> API Response time : 28 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 291, NA<br/>
+<a href="#Output-81194567" onClick='toggleBox("Output-81194567", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-81194567" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-81194567">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Taiwan Province, People's Republic of China] of stateId : 291<br/>
+<br> API Response time : 23 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 135,355,201, NA<br/>
+<a href="#Output-979117606" onClick='toggleBox("Output-979117606", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-979117606" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-979117606">
+Positive case<br/>
+, Correct status [success]<br/>
+, Correct message [null]<br/>
+, Correct name [Daman & Diu] of stateId : 135<br/>
+, Correct name [Chita (Defunct)] of stateId : 355<br/>
+, Correct name [Cocos (Keelin) Islands] of stateId : 201<br/>
+<br> API Response time : 20 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 67856483i5hgffdgo7fd89g7df89hbfjkghjkdfhgjkhdfjkghdfg9809g8fghfjkghjkdfhgjhdfjg, stateIds must have valid data in list<br/>
+<a href="#Output-969014795" onClick='toggleBox("Output-969014795", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-969014795" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-969014795">
+Negative case<br/>
+, API Response is correct [message : stateIds must have valid data in list]<br/>
+<br> API Response time : 45 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+<tr>
+<td title='location.info.GetMultipleStatesName.verifyGetMultipleStatesNameApi()'><b>verifyGetMultipleStatesNameApi</b><br>Test class: location.info.GetMultipleStatesName<br>Parameters: 121,abc,123, stateIds must have valid data in list<br/>
+<a href="#Output-550707" onClick='toggleBox("Output-550707", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-550707" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-550707">
+Negative case<br/>
+, API Response is correct [message : stateIds must have valid data in list]<br/>
+<br> API Response time : 51 MS<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>location.info.GetMultipleStatesName@53b32d7</td></tr>
+</table><p>
+</body>
+</html>

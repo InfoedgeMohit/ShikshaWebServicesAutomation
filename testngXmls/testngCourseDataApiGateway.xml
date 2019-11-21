@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CourseDataApi">
+	<test name="Test">
+		<classes>
+			<class name="courseData.info.getCourseData"/>
+			<class name="courseData.info.getCourseEligibilityCutOffQuota"/>
+			<class name="courseData.info.getCourseEligibilityMainData"/>
+			<class name="courseData.info.getCourseEligilibityExamScore"/>
+			<class name="courseData.info.getCouresFeesAPI"/>
+			<class name="courseData.info.getCourseDataSeatsCatWise"/>
+			<class name="courseData.info.getCourseDataSeatsExamWise"/>
+			<class name="courseData.info.getCourseDateSeatsStateWise"/>
+			<class name="courseData.info.getCourseDataInternship"/>
+			<class name="courseData.info.getCourseDataPlacements"/>
+			<class name="courseData.info.getCourseDataRecuirtCompany"/>
+			<class name="courseData.info.getNaukriData"/>
+			<class name="courseData.info.getCourseAdmissionData"/>
+			<class name="courseData.info.getCourseDataScholarShips"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

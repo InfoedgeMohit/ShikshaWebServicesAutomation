@@ -1,0 +1,1455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="25" passed="25">
+  <reporter-output>
+    <line>
+      <![CDATA[Negative case]]>
+    </line>
+    <line>
+      <![CDATA[, API Response is correct [message : Integer list must not be empty or null values]]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 1606 MS]]>
+    </line>
+    <line>
+      <![CDATA[Positive case]]>
+    </line>
+    <line>
+      <![CDATA[, Correct status [success]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct message [null]]]>
+    </line>
+    <line>
+      <![CDATA[, No data returned for streamId : 36 [Correct]]]>
+    </line>
+    <line>
+      <![CDATA[, No data returned for streamId : -1 [Correct]]]>
+    </line>
+    <line>
+      <![CDATA[, No data returned for streamId : 37 [Correct]]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 71 MS]]>
+    </line>
+    <line>
+      <![CDATA[Negative case]]>
+    </line>
+    <line>
+      <![CDATA[, API Response is correct [message : Integer list must not be empty or null values]]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 44 MS]]>
+    </line>
+    <line>
+      <![CDATA[Positive case]]>
+    </line>
+    <line>
+      <![CDATA[, Correct status [success]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct message [null]]]>
+    </line>
+    <line>
+      <![CDATA[, No data returned for streamId : 62113 [Correct]]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 35 MS]]>
+    </line>
+    <line>
+      <![CDATA[Negative case]]>
+    </line>
+    <line>
+      <![CDATA[, API Response is correct [message : Integer list must not be empty or null values]]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 32 MS]]>
+    </line>
+    <line>
+      <![CDATA[Positive case]]>
+    </line>
+    <line>
+      <![CDATA[, Correct status [success]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct message [null]]]>
+    </line>
+    <line>
+      <![CDATA[, No data returned for streamId : 999999999 [Correct]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct value of streamId [8] for streamId : 8]]>
+    </line>
+    <line>
+      <![CDATA[, Correct name [IT & Software] of streamId : 8]]>
+    </line>
+    <line>
+      <![CDATA[, Correct alias [null] of streamId : 8]]>
+    </line>
+    <line>
+      <![CDATA[, Correct displayOrder [8] of streamId : 8]]>
+    </line>
+    <line>
+      <![CDATA[, Correct synonyms [[]] of streamId : 8]]>
+    </line>
+    <line>
+      <![CDATA[, No data returned for streamId : -1 [Correct]]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 40 MS]]>
+    </line>
+    <line>
+      <![CDATA[Negative case]]>
+    </line>
+    <line>
+      <![CDATA[, API Response is correct [message : streamIds must have valid data in list]]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 28 MS]]>
+    </line>
+    <line>
+      <![CDATA[Positive case]]>
+    </line>
+    <line>
+      <![CDATA[, Correct status [success]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct message [null]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct value of streamId [19] for streamId : 19]]>
+    </line>
+    <line>
+      <![CDATA[, Correct name [Beauty & Fitness] of streamId : 19]]>
+    </line>
+    <line>
+      <![CDATA[, Correct alias [null] of streamId : 19]]>
+    </line>
+    <line>
+      <![CDATA[, Correct displayOrder [19] of streamId : 19]]>
+    </line>
+    <line>
+      <![CDATA[, Correct synonyms [[]] of streamId : 19]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 57 MS]]>
+    </line>
+    <line>
+      <![CDATA[Negative case]]>
+    </line>
+    <line>
+      <![CDATA[, API Response is correct [message : streamIds must have valid data in list]]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 30 MS]]>
+    </line>
+    <line>
+      <![CDATA[Negative case]]>
+    </line>
+    <line>
+      <![CDATA[, API Response is correct [message : streamIds must have valid data in list]]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 24 MS]]>
+    </line>
+    <line>
+      <![CDATA[Negative case]]>
+    </line>
+    <line>
+      <![CDATA[, API Response is correct [message : streamIds must have valid data in list]]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 40 MS]]>
+    </line>
+    <line>
+      <![CDATA[Negative case]]>
+    </line>
+    <line>
+      <![CDATA[, API Response is correct [message : streamIds must have valid data in list]]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 29 MS]]>
+    </line>
+    <line>
+      <![CDATA[Negative case]]>
+    </line>
+    <line>
+      <![CDATA[, API Response is correct [message : streamIds must have valid data in list]]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 36 MS]]>
+    </line>
+    <line>
+      <![CDATA[Positive case]]>
+    </line>
+    <line>
+      <![CDATA[, Correct status [success]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct message [null]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct value of streamId [1] for streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[, Correct name [Business & Management Studies] of streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[, Correct alias [null] of streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[, Correct displayOrder [1] of streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[, Correct synonyms [[Business Management, Business, Management, Business Studies, Management Studies]] of streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 31 MS]]>
+    </line>
+    <line>
+      <![CDATA[Positive case]]>
+    </line>
+    <line>
+      <![CDATA[, Correct status [success]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct message [null]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct value of streamId [1] for streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[, Correct name [Business & Management Studies] of streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[, Correct alias [null] of streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[, Correct displayOrder [1] of streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[, Correct synonyms [[Business Management, Business, Management, Business Studies, Management Studies]] of streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[, Correct value of streamId [2] for streamId : 2]]>
+    </line>
+    <line>
+      <![CDATA[, Correct name [Engineering] of streamId : 2]]>
+    </line>
+    <line>
+      <![CDATA[, Correct alias [null] of streamId : 2]]>
+    </line>
+    <line>
+      <![CDATA[, Correct displayOrder [2] of streamId : 2]]>
+    </line>
+    <line>
+      <![CDATA[, Correct synonyms [[]] of streamId : 2]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 43 MS]]>
+    </line>
+    <line>
+      <![CDATA[Positive case]]>
+    </line>
+    <line>
+      <![CDATA[, Correct status [success]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct message [null]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct value of streamId [1] for streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[, Correct name [Business & Management Studies] of streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[, Correct alias [null] of streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[, Correct displayOrder [1] of streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[, Correct synonyms [[Business Management, Business, Management, Business Studies, Management Studies]] of streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[, No data returned for streamId : 100 [Correct]]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 64 MS]]>
+    </line>
+    <line>
+      <![CDATA[Positive case]]>
+    </line>
+    <line>
+      <![CDATA[, Correct status [success]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct message [null]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct value of streamId [1] for streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[, Correct name [Business & Management Studies] of streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[, Correct alias [null] of streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[, Correct displayOrder [1] of streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[, Correct synonyms [[Business Management, Business, Management, Business Studies, Management Studies]] of streamId : 1]]>
+    </line>
+    <line>
+      <![CDATA[, Correct value of streamId [2] for streamId : 2]]>
+    </line>
+    <line>
+      <![CDATA[, Correct name [Engineering] of streamId : 2]]>
+    </line>
+    <line>
+      <![CDATA[, Correct alias [null] of streamId : 2]]>
+    </line>
+    <line>
+      <![CDATA[, Correct displayOrder [2] of streamId : 2]]>
+    </line>
+    <line>
+      <![CDATA[, Correct synonyms [[]] of streamId : 2]]>
+    </line>
+    <line>
+      <![CDATA[, Correct value of streamId [3] for streamId : 3]]>
+    </line>
+    <line>
+      <![CDATA[, Correct name [Design] of streamId : 3]]>
+    </line>
+    <line>
+      <![CDATA[, Correct alias [null] of streamId : 3]]>
+    </line>
+    <line>
+      <![CDATA[, Correct displayOrder [3] of streamId : 3]]>
+    </line>
+    <line>
+      <![CDATA[, Correct synonyms [[]] of streamId : 3]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 24 MS]]>
+    </line>
+    <line>
+      <![CDATA[Positive case]]>
+    </line>
+    <line>
+      <![CDATA[, Correct status [success]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct message [null]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct value of streamId [4] for streamId : 4]]>
+    </line>
+    <line>
+      <![CDATA[, Correct name [Hospitality & Travel] of streamId : 4]]>
+    </line>
+    <line>
+      <![CDATA[, Correct alias [null] of streamId : 4]]>
+    </line>
+    <line>
+      <![CDATA[, Correct displayOrder [4] of streamId : 4]]>
+    </line>
+    <line>
+      <![CDATA[, Correct synonyms [[]] of streamId : 4]]>
+    </line>
+    <line>
+      <![CDATA[, Correct value of streamId [8] for streamId : 8]]>
+    </line>
+    <line>
+      <![CDATA[, Correct name [IT & Software] of streamId : 8]]>
+    </line>
+    <line>
+      <![CDATA[, Correct alias [null] of streamId : 8]]>
+    </line>
+    <line>
+      <![CDATA[, Correct displayOrder [8] of streamId : 8]]>
+    </line>
+    <line>
+      <![CDATA[, Correct synonyms [[]] of streamId : 8]]>
+    </line>
+    <line>
+      <![CDATA[, Correct value of streamId [9] for streamId : 9]]>
+    </line>
+    <line>
+      <![CDATA[, Correct name [Humanities & Social Sciences] of streamId : 9]]>
+    </line>
+    <line>
+      <![CDATA[, Correct alias [null] of streamId : 9]]>
+    </line>
+    <line>
+      <![CDATA[, Correct displayOrder [9] of streamId : 9]]>
+    </line>
+    <line>
+      <![CDATA[, Correct synonyms [[]] of streamId : 9]]>
+    </line>
+    <line>
+      <![CDATA[, Correct value of streamId [10] for streamId : 10]]>
+    </line>
+    <line>
+      <![CDATA[, Correct name [Arts ( Fine / Visual / Performing )] of streamId : 10]]>
+    </line>
+    <line>
+      <![CDATA[, Correct alias [null] of streamId : 10]]>
+    </line>
+    <line>
+      <![CDATA[, Correct displayOrder [10] of streamId : 10]]>
+    </line>
+    <line>
+      <![CDATA[, Correct synonyms [[]] of streamId : 10]]>
+    </line>
+    <line>
+      <![CDATA[, Correct value of streamId [14] for streamId : 14]]>
+    </line>
+    <line>
+      <![CDATA[, Correct name [Banking, Finance & Insurance] of streamId : 14]]>
+    </line>
+    <line>
+      <![CDATA[, Correct alias [null] of streamId : 14]]>
+    </line>
+    <line>
+      <![CDATA[, Correct displayOrder [14] of streamId : 14]]>
+    </line>
+    <line>
+      <![CDATA[, Correct synonyms [[]] of streamId : 14]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 42 MS]]>
+    </line>
+    <line>
+      <![CDATA[Positive case]]>
+    </line>
+    <line>
+      <![CDATA[, Correct status [success]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct message [null]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct value of streamId [5] for streamId : 5]]>
+    </line>
+    <line>
+      <![CDATA[, Correct name [Law] of streamId : 5]]>
+    </line>
+    <line>
+      <![CDATA[, Correct alias [null] of streamId : 5]]>
+    </line>
+    <line>
+      <![CDATA[, Correct displayOrder [5] of streamId : 5]]>
+    </line>
+    <line>
+      <![CDATA[, Correct synonyms [[]] of streamId : 5]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 27 MS]]>
+    </line>
+    <line>
+      <![CDATA[Positive case]]>
+    </line>
+    <line>
+      <![CDATA[, Correct status [success]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct message [null]]]>
+    </line>
+    <line>
+      <![CDATA[, Correct value of streamId [10] for streamId : 10]]>
+    </line>
+    <line>
+      <![CDATA[, Correct name [Arts ( Fine / Visual / Performing )] of streamId : 10]]>
+    </line>
+    <line>
+      <![CDATA[, Correct alias [null] of streamId : 10]]>
+    </line>
+    <line>
+      <![CDATA[, Correct displayOrder [10] of streamId : 10]]>
+    </line>
+    <line>
+      <![CDATA[, Correct synonyms [[]] of streamId : 10]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 44 MS]]>
+    </line>
+    <line>
+      <![CDATA[Negative case]]>
+    </line>
+    <line>
+      <![CDATA[, API Response is correct [message : Required List parameter 'streamIds' is not present]]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 32 MS]]>
+    </line>
+    <line>
+      <![CDATA[Negative case]]>
+    </line>
+    <line>
+      <![CDATA[, API Response is correct [message : streamIds must have valid data in list]]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 50 MS]]>
+    </line>
+    <line>
+      <![CDATA[Negative case]]>
+    </line>
+    <line>
+      <![CDATA[, API Response is correct [message : Required List parameter 'streamIds' is not present]]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 32 MS]]>
+    </line>
+    <line>
+      <![CDATA[Negative case]]>
+    </line>
+    <line>
+      <![CDATA[, API Response is correct [message : streamIds must have valid data in list]]]>
+    </line>
+    <line>
+      <![CDATA[<br> API Response time : 32 MS]]>
+    </line>
+    <line>
+      <![CDATA[Response time stats for getMultipleStreams api >>> ]]>
+    </line>
+    <line>
+      <![CDATA[Min time : 24 MS]]>
+    </line>
+    <line>
+      <![CDATA[, Max time : 1606 MS]]>
+    </line>
+    <line>
+      <![CDATA[, Total time : 2493 MS for 24 inputs]]>
+    </line>
+    <line>
+      <![CDATA[, Average time : 103 MS]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10777" started-at="2018-05-22T06:40:35Z" finished-at="2018-05-22T06:40:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10777" started-at="2018-05-22T06:40:35Z" finished-at="2018-05-22T06:40:46Z">
+      <class name="baseentities.info.GetMultipleStreams">
+        <test-method status="PASS" signature="doItBeforeTest()[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="doItBeforeTest" is-config="true" duration-ms="20" started-at="2018-05-22T12:10:35Z" finished-at="2018-05-22T12:10:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doItBeforeTest -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="3564" started-at="2018-05-22T12:10:36Z" data-provider="testData" finished-at="2018-05-22T12:10:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Integer list must not be empty or null values]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negative case]]>
+            </line>
+            <line>
+              <![CDATA[, API Response is correct [message : Integer list must not be empty or null values]]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 1606 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="1011" started-at="2018-05-22T12:10:40Z" data-provider="testData" finished-at="2018-05-22T12:10:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[00000000036,-1,00000000037]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Positive case]]>
+            </line>
+            <line>
+              <![CDATA[, Correct status [success]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct message [null]]]>
+            </line>
+            <line>
+              <![CDATA[, No data returned for streamId : 36 [Correct]]]>
+            </line>
+            <line>
+              <![CDATA[, No data returned for streamId : -1 [Correct]]]>
+            </line>
+            <line>
+              <![CDATA[, No data returned for streamId : 37 [Correct]]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 71 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="134" started-at="2018-05-22T12:10:41Z" data-provider="testData" finished-at="2018-05-22T12:10:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[                      ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Integer list must not be empty or null values]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negative case]]>
+            </line>
+            <line>
+              <![CDATA[, API Response is correct [message : Integer list must not be empty or null values]]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 44 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="194" started-at="2018-05-22T12:10:41Z" data-provider="testData" finished-at="2018-05-22T12:10:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[00000062113]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Positive case]]>
+            </line>
+            <line>
+              <![CDATA[, Correct status [success]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct message [null]]]>
+            </line>
+            <line>
+              <![CDATA[, No data returned for streamId : 62113 [Correct]]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 35 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="94" started-at="2018-05-22T12:10:41Z" data-provider="testData" finished-at="2018-05-22T12:10:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[121,,123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Integer list must not be empty or null values]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negative case]]>
+            </line>
+            <line>
+              <![CDATA[, API Response is correct [message : Integer list must not be empty or null values]]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 32 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="639" started-at="2018-05-22T12:10:41Z" data-provider="testData" finished-at="2018-05-22T12:10:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[999999999,8,-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Positive case]]>
+            </line>
+            <line>
+              <![CDATA[, Correct status [success]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct message [null]]]>
+            </line>
+            <line>
+              <![CDATA[, No data returned for streamId : 999999999 [Correct]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct value of streamId [8] for streamId : 8]]>
+            </line>
+            <line>
+              <![CDATA[, Correct name [IT & Software] of streamId : 8]]>
+            </line>
+            <line>
+              <![CDATA[, Correct alias [null] of streamId : 8]]>
+            </line>
+            <line>
+              <![CDATA[, Correct displayOrder [8] of streamId : 8]]>
+            </line>
+            <line>
+              <![CDATA[, Correct synonyms [[]] of streamId : 8]]>
+            </line>
+            <line>
+              <![CDATA[, No data returned for streamId : -1 [Correct]]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 40 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="84" started-at="2018-05-22T12:10:42Z" data-provider="testData" finished-at="2018-05-22T12:10:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[~!@#$%^&*()_+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[streamIds must have valid data in list]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negative case]]>
+            </line>
+            <line>
+              <![CDATA[, API Response is correct [message : streamIds must have valid data in list]]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 28 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="273" started-at="2018-05-22T12:10:42Z" data-provider="testData" finished-at="2018-05-22T12:10:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Positive case]]>
+            </line>
+            <line>
+              <![CDATA[, Correct status [success]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct message [null]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct value of streamId [19] for streamId : 19]]>
+            </line>
+            <line>
+              <![CDATA[, Correct name [Beauty & Fitness] of streamId : 19]]>
+            </line>
+            <line>
+              <![CDATA[, Correct alias [null] of streamId : 19]]>
+            </line>
+            <line>
+              <![CDATA[, Correct displayOrder [19] of streamId : 19]]>
+            </line>
+            <line>
+              <![CDATA[, Correct synonyms [[]] of streamId : 19]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 57 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="80" started-at="2018-05-22T12:10:42Z" data-provider="testData" finished-at="2018-05-22T12:10:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[`1234567890-=]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[streamIds must have valid data in list]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negative case]]>
+            </line>
+            <line>
+              <![CDATA[, API Response is correct [message : streamIds must have valid data in list]]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 30 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="72" started-at="2018-05-22T12:10:42Z" data-provider="testData" finished-at="2018-05-22T12:10:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{}[]:';'<>,.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[streamIds must have valid data in list]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negative case]]>
+            </line>
+            <line>
+              <![CDATA[, API Response is correct [message : streamIds must have valid data in list]]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 24 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="77" started-at="2018-05-22T12:10:42Z" data-provider="testData" finished-at="2018-05-22T12:10:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[67856483i5hgffdgo7fd89g7df89hbfjkghjkdfhgjkhdfjkghdfg9809g8fghfjkghjkdfhgjhdfjg]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[streamIds must have valid data in list]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negative case]]>
+            </line>
+            <line>
+              <![CDATA[, API Response is correct [message : streamIds must have valid data in list]]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 40 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="79" started-at="2018-05-22T12:10:42Z" data-provider="testData" finished-at="2018-05-22T12:10:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[121,abc,123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[streamIds must have valid data in list]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negative case]]>
+            </line>
+            <line>
+              <![CDATA[, API Response is correct [message : streamIds must have valid data in list]]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 29 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="84" started-at="2018-05-22T12:10:42Z" data-provider="testData" finished-at="2018-05-22T12:10:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234567890123456789012345678901234567890]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[streamIds must have valid data in list]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negative case]]>
+            </line>
+            <line>
+              <![CDATA[, API Response is correct [message : streamIds must have valid data in list]]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 36 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="203" started-at="2018-05-22T12:10:43Z" data-provider="testData" finished-at="2018-05-22T12:10:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Positive case]]>
+            </line>
+            <line>
+              <![CDATA[, Correct status [success]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct message [null]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct value of streamId [1] for streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[, Correct name [Business & Management Studies] of streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[, Correct alias [null] of streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[, Correct displayOrder [1] of streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[, Correct synonyms [[Business Management, Business, Management, Business Studies, Management Studies]] of streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 31 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="484" started-at="2018-05-22T12:10:43Z" data-provider="testData" finished-at="2018-05-22T12:10:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1,2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Positive case]]>
+            </line>
+            <line>
+              <![CDATA[, Correct status [success]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct message [null]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct value of streamId [1] for streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[, Correct name [Business & Management Studies] of streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[, Correct alias [null] of streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[, Correct displayOrder [1] of streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[, Correct synonyms [[Business Management, Business, Management, Business Studies, Management Studies]] of streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[, Correct value of streamId [2] for streamId : 2]]>
+            </line>
+            <line>
+              <![CDATA[, Correct name [Engineering] of streamId : 2]]>
+            </line>
+            <line>
+              <![CDATA[, Correct alias [null] of streamId : 2]]>
+            </line>
+            <line>
+              <![CDATA[, Correct displayOrder [2] of streamId : 2]]>
+            </line>
+            <line>
+              <![CDATA[, Correct synonyms [[]] of streamId : 2]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 43 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="339" started-at="2018-05-22T12:10:43Z" data-provider="testData" finished-at="2018-05-22T12:10:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1,100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Positive case]]>
+            </line>
+            <line>
+              <![CDATA[, Correct status [success]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct message [null]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct value of streamId [1] for streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[, Correct name [Business & Management Studies] of streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[, Correct alias [null] of streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[, Correct displayOrder [1] of streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[, Correct synonyms [[Business Management, Business, Management, Business Studies, Management Studies]] of streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[, No data returned for streamId : 100 [Correct]]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 64 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="537" started-at="2018-05-22T12:10:44Z" data-provider="testData" finished-at="2018-05-22T12:10:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1,2,3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Positive case]]>
+            </line>
+            <line>
+              <![CDATA[, Correct status [success]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct message [null]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct value of streamId [1] for streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[, Correct name [Business & Management Studies] of streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[, Correct alias [null] of streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[, Correct displayOrder [1] of streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[, Correct synonyms [[Business Management, Business, Management, Business Studies, Management Studies]] of streamId : 1]]>
+            </line>
+            <line>
+              <![CDATA[, Correct value of streamId [2] for streamId : 2]]>
+            </line>
+            <line>
+              <![CDATA[, Correct name [Engineering] of streamId : 2]]>
+            </line>
+            <line>
+              <![CDATA[, Correct alias [null] of streamId : 2]]>
+            </line>
+            <line>
+              <![CDATA[, Correct displayOrder [2] of streamId : 2]]>
+            </line>
+            <line>
+              <![CDATA[, Correct synonyms [[]] of streamId : 2]]>
+            </line>
+            <line>
+              <![CDATA[, Correct value of streamId [3] for streamId : 3]]>
+            </line>
+            <line>
+              <![CDATA[, Correct name [Design] of streamId : 3]]>
+            </line>
+            <line>
+              <![CDATA[, Correct alias [null] of streamId : 3]]>
+            </line>
+            <line>
+              <![CDATA[, Correct displayOrder [3] of streamId : 3]]>
+            </line>
+            <line>
+              <![CDATA[, Correct synonyms [[]] of streamId : 3]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 24 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="893" started-at="2018-05-22T12:10:44Z" data-provider="testData" finished-at="2018-05-22T12:10:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4,8,9,10,14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Positive case]]>
+            </line>
+            <line>
+              <![CDATA[, Correct status [success]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct message [null]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct value of streamId [4] for streamId : 4]]>
+            </line>
+            <line>
+              <![CDATA[, Correct name [Hospitality & Travel] of streamId : 4]]>
+            </line>
+            <line>
+              <![CDATA[, Correct alias [null] of streamId : 4]]>
+            </line>
+            <line>
+              <![CDATA[, Correct displayOrder [4] of streamId : 4]]>
+            </line>
+            <line>
+              <![CDATA[, Correct synonyms [[]] of streamId : 4]]>
+            </line>
+            <line>
+              <![CDATA[, Correct value of streamId [8] for streamId : 8]]>
+            </line>
+            <line>
+              <![CDATA[, Correct name [IT & Software] of streamId : 8]]>
+            </line>
+            <line>
+              <![CDATA[, Correct alias [null] of streamId : 8]]>
+            </line>
+            <line>
+              <![CDATA[, Correct displayOrder [8] of streamId : 8]]>
+            </line>
+            <line>
+              <![CDATA[, Correct synonyms [[]] of streamId : 8]]>
+            </line>
+            <line>
+              <![CDATA[, Correct value of streamId [9] for streamId : 9]]>
+            </line>
+            <line>
+              <![CDATA[, Correct name [Humanities & Social Sciences] of streamId : 9]]>
+            </line>
+            <line>
+              <![CDATA[, Correct alias [null] of streamId : 9]]>
+            </line>
+            <line>
+              <![CDATA[, Correct displayOrder [9] of streamId : 9]]>
+            </line>
+            <line>
+              <![CDATA[, Correct synonyms [[]] of streamId : 9]]>
+            </line>
+            <line>
+              <![CDATA[, Correct value of streamId [10] for streamId : 10]]>
+            </line>
+            <line>
+              <![CDATA[, Correct name [Arts ( Fine / Visual / Performing )] of streamId : 10]]>
+            </line>
+            <line>
+              <![CDATA[, Correct alias [null] of streamId : 10]]>
+            </line>
+            <line>
+              <![CDATA[, Correct displayOrder [10] of streamId : 10]]>
+            </line>
+            <line>
+              <![CDATA[, Correct synonyms [[]] of streamId : 10]]>
+            </line>
+            <line>
+              <![CDATA[, Correct value of streamId [14] for streamId : 14]]>
+            </line>
+            <line>
+              <![CDATA[, Correct name [Banking, Finance & Insurance] of streamId : 14]]>
+            </line>
+            <line>
+              <![CDATA[, Correct alias [null] of streamId : 14]]>
+            </line>
+            <line>
+              <![CDATA[, Correct displayOrder [14] of streamId : 14]]>
+            </line>
+            <line>
+              <![CDATA[, Correct synonyms [[]] of streamId : 14]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 42 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="192" started-at="2018-05-22T12:10:45Z" data-provider="testData" finished-at="2018-05-22T12:10:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Positive case]]>
+            </line>
+            <line>
+              <![CDATA[, Correct status [success]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct message [null]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct value of streamId [5] for streamId : 5]]>
+            </line>
+            <line>
+              <![CDATA[, Correct name [Law] of streamId : 5]]>
+            </line>
+            <line>
+              <![CDATA[, Correct alias [null] of streamId : 5]]>
+            </line>
+            <line>
+              <![CDATA[, Correct displayOrder [5] of streamId : 5]]>
+            </line>
+            <line>
+              <![CDATA[, Correct synonyms [[]] of streamId : 5]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 27 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="188" started-at="2018-05-22T12:10:45Z" data-provider="testData" finished-at="2018-05-22T12:10:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Positive case]]>
+            </line>
+            <line>
+              <![CDATA[, Correct status [success]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct message [null]]]>
+            </line>
+            <line>
+              <![CDATA[, Correct value of streamId [10] for streamId : 10]]>
+            </line>
+            <line>
+              <![CDATA[, Correct name [Arts ( Fine / Visual / Performing )] of streamId : 10]]>
+            </line>
+            <line>
+              <![CDATA[, Correct alias [null] of streamId : 10]]>
+            </line>
+            <line>
+              <![CDATA[, Correct displayOrder [10] of streamId : 10]]>
+            </line>
+            <line>
+              <![CDATA[, Correct synonyms [[]] of streamId : 10]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 44 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="72" started-at="2018-05-22T12:10:45Z" data-provider="testData" finished-at="2018-05-22T12:10:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ignoreHeader]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Required List parameter 'streamIds' is not present]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negative case]]>
+            </line>
+            <line>
+              <![CDATA[, API Response is correct [message : Required List parameter 'streamIds' is not present]]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 32 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="92" started-at="2018-05-22T12:10:45Z" data-provider="testData" finished-at="2018-05-22T12:10:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[streamIds must have valid data in list]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negative case]]>
+            </line>
+            <line>
+              <![CDATA[, API Response is correct [message : streamIds must have valid data in list]]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 50 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="84" started-at="2018-05-22T12:10:46Z" data-provider="testData" finished-at="2018-05-22T12:10:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ignoreInput]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Required List parameter 'streamIds' is not present]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negative case]]>
+            </line>
+            <line>
+              <![CDATA[, API Response is correct [message : Required List parameter 'streamIds' is not present]]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 32 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="verifyGetMultipleStreamsApi(java.lang.String, java.lang.String)[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="verifyGetMultipleStreamsApi" duration-ms="108" started-at="2018-05-22T12:10:46Z" data-provider="testData" finished-at="2018-05-22T12:10:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[999999999,9999999009]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[streamIds must have valid data in list]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Negative case]]>
+            </line>
+            <line>
+              <![CDATA[, API Response is correct [message : streamIds must have valid data in list]]]>
+            </line>
+            <line>
+              <![CDATA[<br> API Response time : 32 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyGetMultipleStreamsApi -->
+        <test-method status="PASS" signature="respnseTimeStats_GetMultipleStreams()[pri:0, instance:baseentities.info.GetMultipleStreams@3e6fa38a]" name="respnseTimeStats_GetMultipleStreams" duration-ms="0" started-at="2018-05-22T12:10:46Z" finished-at="2018-05-22T12:10:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Response time stats for getMultipleStreams api >>> ]]>
+            </line>
+            <line>
+              <![CDATA[Min time : 24 MS]]>
+            </line>
+            <line>
+              <![CDATA[, Max time : 1606 MS]]>
+            </line>
+            <line>
+              <![CDATA[, Total time : 2493 MS for 24 inputs]]>
+            </line>
+            <line>
+              <![CDATA[, Average time : 103 MS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- respnseTimeStats_GetMultipleStreams -->
+      </class> <!-- baseentities.info.GetMultipleStreams -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

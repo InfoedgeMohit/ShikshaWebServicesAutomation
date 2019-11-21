@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="sumsApiSuite">
+	<test name="Test">
+		<classes>
+			<!-- <class name="sums.info.ValidSubs" />
+			<class name="sums.info.GetSubsValidity" />
+			<class name="sums.info.GetSubsPortingType" />
+			<class name="sums.info.GetTierBySubs" />
+			<class name="sums.info.GetSubsDetails" />
+			<class name="sums.info.GetAllSubsForUser" />
+			<class name="sums.info.GetAllPseudoSubsForUser" />
+			<class name="sums.info.CollegeLinkSubsDetails" />
+			<class name="sums.info.GetProductFeatures" />
+			<class name="sums.consumption.DeductCredit" />
+			<class name="sums.consumption.ConsumeSubs" />
+			<class name="sums.consumption.ConsumePseudoSubs" />
+			<class name="sums.curd.AddSubsLog" /> -->
+			<class name="common.Practise" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

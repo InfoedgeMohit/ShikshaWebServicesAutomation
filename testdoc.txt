@@ -1,0 +1,4 @@
+testname2=bcd
+testname  = abc
+testdoc
+
